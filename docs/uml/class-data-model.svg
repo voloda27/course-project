@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="650" viewBox="0 0 1240 650" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fff"/>
+<line x1="270.0" y1="190.0" x2="470.0" y2="190.0" stroke="#000" stroke-width="1.3"/>
+<line x1="960.0" y1="190.0" x2="760.0" y2="190.0" stroke="#000" stroke-width="1.3"/>
+<line x1="155.0" y1="248.0" x2="155.0" y2="470.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="150.3,458.9 155.0,470.0 159.7,458.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1080.8" y1="230.0" x2="1084.3" y2="470.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="1079.5,459.0 1084.3,470.0 1088.8,458.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="720.0" y1="252.0" x2="720.0" y2="516.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<line x1="720.0" y1="516.0" x2="985.0" y2="516.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="973.9,520.7 985.0,516.0 973.9,511.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect x="40.0" y="120.0" width="230.0" height="128.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="40.0" y="120.0" width="230.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="155.0" y="139.0" font-size="12" text-anchor="middle">«entity» accounts</text>
+<text x="155.0" y="157.0" font-size="14" text-anchor="middle" font-weight="bold">Account</text>
+<text x="50.0" y="184.0" font-size="13" text-anchor="start">+ id: string</text>
+<text x="50.0" y="202.0" font-size="13" text-anchor="start">+ name: string</text>
+<text x="50.0" y="220.0" font-size="13" text-anchor="start">+ type: AccountType</text>
+<text x="50.0" y="238.0" font-size="13" text-anchor="start">+ balance: number</text>
+<rect x="470.0" y="70.0" width="290.0" height="182.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="470.0" y="70.0" width="290.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="615.0" y="89.0" font-size="12" text-anchor="middle">«entity» transactions</text>
+<text x="615.0" y="107.0" font-size="14" text-anchor="middle" font-weight="bold">Transaction</text>
+<text x="480.0" y="134.0" font-size="13" text-anchor="start">+ id: string</text>
+<text x="480.0" y="152.0" font-size="13" text-anchor="start">+ type: TransactionType</text>
+<text x="480.0" y="170.0" font-size="13" text-anchor="start">+ amount: number</text>
+<text x="480.0" y="188.0" font-size="13" text-anchor="start">+ date: string  (РРРР-ММ-ДД)</text>
+<text x="480.0" y="206.0" font-size="13" text-anchor="start">+ accountId: string</text>
+<text x="480.0" y="224.0" font-size="13" text-anchor="start">+ categoryId: string</text>
+<text x="480.0" y="242.0" font-size="13" text-anchor="start">+ comment: string</text>
+<rect x="960.0" y="120.0" width="240.0" height="110.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="960.0" y="120.0" width="240.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1080.0" y="139.0" font-size="12" text-anchor="middle">«entity» categories</text>
+<text x="1080.0" y="157.0" font-size="14" text-anchor="middle" font-weight="bold">Category</text>
+<text x="970.0" y="184.0" font-size="13" text-anchor="start">+ id: string</text>
+<text x="970.0" y="202.0" font-size="13" text-anchor="start">+ name: string</text>
+<text x="970.0" y="220.0" font-size="13" text-anchor="start">+ type: TransactionType</text>
+<rect x="55.0" y="470.0" width="200.0" height="110.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="55.0" y="470.0" width="200.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="155.0" y="489.0" font-size="12" text-anchor="middle">«enumeration»</text>
+<text x="155.0" y="507.0" font-size="14" text-anchor="middle" font-weight="bold">AccountType</text>
+<text x="65.0" y="534.0" font-size="13" text-anchor="start">cash</text>
+<text x="65.0" y="552.0" font-size="13" text-anchor="start">card</text>
+<text x="65.0" y="570.0" font-size="13" text-anchor="start">savings</text>
+<rect x="985.0" y="470.0" width="200.0" height="92.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="985.0" y="470.0" width="200.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1085.0" y="489.0" font-size="12" text-anchor="middle">«enumeration»</text>
+<text x="1085.0" y="507.0" font-size="14" text-anchor="middle" font-weight="bold">TransactionType</text>
+<text x="995.0" y="534.0" font-size="13" text-anchor="start">income</text>
+<text x="995.0" y="552.0" font-size="13" text-anchor="start">expense</text>
+<polygon points="300.0,440.0 683.8,440.0 695.8,452.0 695.8,564.0 300.0,564.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="683.8,440.0 683.8,452.0 695.8,452.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="310.0" y="461.0" font-size="13" text-anchor="start">{ amount &gt; 0 і amount ≤ 1 000 000 }</text>
+<text x="310.0" y="479.0" font-size="13" text-anchor="start">{ date: реальна дата, 2000-01-01 ≤ date ≤ сьогодні }</text>
+<text x="310.0" y="497.0" font-size="13" text-anchor="start">{ category.type = type }</text>
+<text x="310.0" y="515.0" font-size="13" text-anchor="start">{ comment.length ≤ 100 }</text>
+<text x="310.0" y="533.0" font-size="13" text-anchor="start">Головне правило:</text>
+<text x="310.0" y="551.0" font-size="13" text-anchor="start">{ type = expense ⇒ amount ≤ account.balance }</text>
+<line x1="438.5" y1="440.0" x2="575.0" y2="252.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polygon points="40.0,22.0 300.5,22.0 312.5,34.0 312.5,74.0 40.0,74.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="300.5,22.0 300.5,34.0 312.5,34.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="50.0" y="43.0" font-size="13" text-anchor="start">{ 0 ≤ balance ≤ 10 000 000 }</text>
+<text x="50.0" y="61.0" font-size="13" text-anchor="start">{ name: 2–40 символів, унікальна }</text>
+<line x1="100.0" y1="74.0" x2="100.0" y2="120.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polygon points="975.0,22.0 1176.0,22.0 1188.0,34.0 1188.0,74.0 975.0,74.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="1176.0,22.0 1176.0,34.0 1188.0,34.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="985.0" y="43.0" font-size="13" text-anchor="start">{ name: 2–30 символів,</text>
+<text x="985.0" y="61.0" font-size="13" text-anchor="start">  унікальна в межах type }</text>
+<line x1="1055.0" y1="74.0" x2="1040.0" y2="120.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<text x="620.0" y="626.0" font-size="13" text-anchor="middle" font-style="italic">Модель даних: колекції db.json, які обслуговує JSON Server; суми — у гривнях, id — рядки</text>
+<rect x="306.9" y="167.0" width="126.2" height="18.0" fill="#fff"/>
+<text x="370.0" y="180.3" font-size="12" text-anchor="middle">належить рахунку</text>
+<text x="288.0" y="182.0" font-size="13" text-anchor="middle">1</text>
+<text x="452.0" y="206.0" font-size="13" text-anchor="middle">0..*</text>
+<rect x="820.4" y="167.0" width="79.2" height="18.0" fill="#fff"/>
+<text x="860.0" y="180.3" font-size="12" text-anchor="middle">класифікує</text>
+<text x="942.0" y="206.0" font-size="13" text-anchor="middle">1</text>
+<text x="778.0" y="182.0" font-size="13" text-anchor="middle">0..*</text>
+</svg>

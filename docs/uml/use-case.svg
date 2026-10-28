@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="1060" viewBox="0 0 1340 1060" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fff"/>
+<rect x="230.0" y="30.0" width="1090.0" height="1010.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="775.0" y="60.0" font-size="17" text-anchor="middle" font-weight="bold">Програма «Особисті фінанси»</text>
+<circle cx="100" cy="454.0" r="13" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<line x1="100.0" y1="467.0" x2="100.0" y2="509.0" stroke="#000" stroke-width="1.5"/>
+<line x1="76.0" y1="482.0" x2="124.0" y2="482.0" stroke="#000" stroke-width="1.5"/>
+<line x1="100.0" y1="509.0" x2="80.0" y2="539.0" stroke="#000" stroke-width="1.5"/>
+<line x1="100.0" y1="509.0" x2="120.0" y2="539.0" stroke="#000" stroke-width="1.5"/>
+<text x="100.0" y="560.0" font-size="14" text-anchor="middle">Власник</text>
+<text x="100.0" y="577.0" font-size="14" text-anchor="middle">бюджету</text>
+<line x1="126.0" y1="482.0" x2="410.0" y2="118.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="184.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="250.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="316.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="382.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="448.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="514.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="580.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="646.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="712.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="778.0" stroke="#000" stroke-width="1.3"/>
+<line x1="126.0" y1="482.0" x2="410.0" y2="910.0" stroke="#000" stroke-width="1.3"/>
+<line x1="646.6" y1="338.9" x2="963.4" y2="422.5" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="951.5,424.2 963.4,422.5 953.9,415.2" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="646.6" y1="557.1" x2="963.4" y2="473.5" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="953.9,480.8 963.4,473.5 951.5,471.8" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="682.5" y1="662.2" x2="926.5" y2="694.4" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="914.9,697.6 926.5,694.4 916.1,688.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="710.0" y1="712.0" x2="900.0" y2="712.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="888.9,716.7 900.0,712.0 888.9,707.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="682.5" y1="761.8" x2="926.5" y2="729.6" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="916.1,735.7 926.5,729.6 914.9,726.4" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1060.0" y1="680.0" x2="1060.0" y2="612.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="1064.7,623.1 1060.0,612.0 1055.3,623.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="946.4" y1="854.4" x2="678.8" y2="892.9" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="689.0,886.7 678.8,892.9 690.4,895.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="920.0" y1="910.0" x2="710.0" y2="910.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="721.1,905.3 710.0,910.0 721.1,914.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="946.4" y1="965.6" x2="678.8" y2="927.1" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="690.4,924.1 678.8,927.1 689.0,933.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<ellipse cx="560.0" cy="118.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="114.5" font-size="14" text-anchor="middle">Переглянути рахунки</text>
+<text x="560.0" y="131.5" font-size="12" text-anchor="middle">(ФВ-01)</text>
+<ellipse cx="560.0" cy="184.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="180.5" font-size="14" text-anchor="middle">Додати рахунок</text>
+<text x="560.0" y="197.5" font-size="12" text-anchor="middle">(ФВ-02)</text>
+<ellipse cx="560.0" cy="250.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="246.5" font-size="14" text-anchor="middle">Редагувати рахунок</text>
+<text x="560.0" y="263.5" font-size="12" text-anchor="middle">(ФВ-03)</text>
+<ellipse cx="560.0" cy="316.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="312.5" font-size="14" text-anchor="middle">Видалити рахунок</text>
+<text x="560.0" y="329.5" font-size="12" text-anchor="middle">(ФВ-04)</text>
+<ellipse cx="560.0" cy="382.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="378.5" font-size="14" text-anchor="middle">Переглянути категорії</text>
+<text x="560.0" y="395.5" font-size="12" text-anchor="middle">(ФВ-05)</text>
+<ellipse cx="560.0" cy="448.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="444.5" font-size="14" text-anchor="middle">Додати категорію</text>
+<text x="560.0" y="461.5" font-size="12" text-anchor="middle">(ФВ-06)</text>
+<ellipse cx="560.0" cy="514.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="510.5" font-size="14" text-anchor="middle">Редагувати категорію</text>
+<text x="560.0" y="527.5" font-size="12" text-anchor="middle">(ФВ-07)</text>
+<ellipse cx="560.0" cy="580.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="576.5" font-size="14" text-anchor="middle">Видалити категорію</text>
+<text x="560.0" y="593.5" font-size="12" text-anchor="middle">(ФВ-08)</text>
+<ellipse cx="560.0" cy="646.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="642.5" font-size="14" text-anchor="middle">Провести операцію</text>
+<text x="560.0" y="659.5" font-size="12" text-anchor="middle">(ФВ-10)</text>
+<ellipse cx="560.0" cy="712.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="708.5" font-size="14" text-anchor="middle">Редагувати операцію</text>
+<text x="560.0" y="725.5" font-size="12" text-anchor="middle">(ФВ-11)</text>
+<ellipse cx="560.0" cy="778.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="774.5" font-size="14" text-anchor="middle">Видалити операцію</text>
+<text x="560.0" y="791.5" font-size="12" text-anchor="middle">(ФВ-12)</text>
+<ellipse cx="560.0" cy="910.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="560.0" y="906.5" font-size="14" text-anchor="middle">Переглянути журнал</text>
+<text x="560.0" y="923.5" font-size="14" text-anchor="middle">операцій (ФВ-09)</text>
+<ellipse cx="1060.0" cy="448.0" rx="160.0" ry="32.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1060.0" y="444.5" font-size="14" text-anchor="middle">Перевірити наявність</text>
+<text x="1060.0" y="461.5" font-size="14" text-anchor="middle">пов'язаних операцій</text>
+<ellipse cx="1060.0" cy="580.0" rx="182.0" ry="32.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1060.0" y="576.5" font-size="14" text-anchor="middle">Перевірити достатність коштів</text>
+<text x="1060.0" y="593.5" font-size="12" text-anchor="middle">(витрата ≤ баланс рахунку)</text>
+<ellipse cx="1060.0" cy="712.0" rx="160.0" ry="32.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1060.0" y="708.5" font-size="14" text-anchor="middle">Перерахувати баланс</text>
+<text x="1060.0" y="725.5" font-size="14" text-anchor="middle">рахунку</text>
+<ellipse cx="1060.0" cy="838.0" rx="140.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1060.0" y="834.5" font-size="14" text-anchor="middle">Знайти операції</text>
+<text x="1060.0" y="851.5" font-size="12" text-anchor="middle">(ФВ-13)</text>
+<ellipse cx="1060.0" cy="910.0" rx="140.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1060.0" y="906.5" font-size="14" text-anchor="middle">Фільтрувати операції</text>
+<text x="1060.0" y="923.5" font-size="12" text-anchor="middle">(ФВ-14)</text>
+<ellipse cx="1060.0" cy="982.0" rx="140.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1060.0" y="978.5" font-size="14" text-anchor="middle">Сортувати операції</text>
+<text x="1060.0" y="995.5" font-size="12" text-anchor="middle">(ФВ-15)</text>
+<polygon points="900.0,92.0 1185.0,92.0 1197.0,104.0 1197.0,176.0 900.0,176.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="1185.0,92.0 1185.0,104.0 1197.0,104.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="910.0" y="112.0" font-size="12" text-anchor="start">Прецеденти додавання та редагування</text>
+<text x="910.0" y="129.0" font-size="12" text-anchor="start">включають перевірку введених даних</text>
+<text x="910.0" y="146.0" font-size="12" text-anchor="start">(ФВ-16). Якщо JSON Server недоступний,</text>
+<text x="910.0" y="163.0" font-size="12" text-anchor="start">користувач бачить повідомлення (ФВ-17).</text>
+<polygon points="900.0,230.0 1185.2,230.0 1197.2,242.0 1197.2,297.0 900.0,297.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="1185.2,230.0 1185.2,242.0 1197.2,242.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="910.0" y="250.0" font-size="12" text-anchor="start">Рахунок або категорію з операціями</text>
+<text x="910.0" y="267.0" font-size="12" text-anchor="start">видалити не можна.</text>
+<text x="910.0" y="284.0" font-size="12" text-anchor="start">Баланс рахунку не може стати від'ємним.</text>
+<rect x="771.9" y="371.7" width="66.2" height="18.0" fill="#fff"/>
+<text x="805.0" y="385.0" font-size="12" text-anchor="middle">«include»</text>
+<rect x="771.9" y="506.3" width="66.2" height="18.0" fill="#fff"/>
+<text x="805.0" y="519.6" font-size="12" text-anchor="middle">«include»</text>
+<rect x="771.4" y="669.3" width="66.2" height="18.0" fill="#fff"/>
+<text x="804.5" y="682.6" font-size="12" text-anchor="middle">«include»</text>
+<rect x="771.9" y="703.0" width="66.2" height="18.0" fill="#fff"/>
+<text x="805.0" y="716.3" font-size="12" text-anchor="middle">«include»</text>
+<rect x="771.4" y="736.7" width="66.2" height="18.0" fill="#fff"/>
+<text x="804.5" y="750.1" font-size="12" text-anchor="middle">«include»</text>
+<rect x="1026.9" y="637.0" width="66.2" height="18.0" fill="#fff"/>
+<text x="1060.0" y="650.3" font-size="12" text-anchor="middle">«include»</text>
+<rect x="793.8" y="862.7" width="64.3" height="18.0" fill="#fff"/>
+<text x="826.0" y="876.0" font-size="12" text-anchor="middle">«extend»</text>
+<rect x="793.3" y="901.0" width="64.3" height="18.0" fill="#fff"/>
+<text x="825.5" y="914.3" font-size="12" text-anchor="middle">«extend»</text>
+<rect x="793.8" y="939.3" width="64.3" height="18.0" fill="#fff"/>
+<text x="826.0" y="952.6" font-size="12" text-anchor="middle">«extend»</text>
+</svg>

@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1172" height="963" viewBox="0 0 1172 963" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#fff"/>
+<polygon points="198.0,89.6 201.4,74.0 187.1,81.1" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<line x1="162.4" y1="124.0" x2="192.6" y2="85.4" stroke="#000" stroke-width="1.3"/>
+<polygon points="253.8,79.9 238.9,74.0 243.5,89.3" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<line x1="285.0" y1="124.0" x2="248.7" y2="84.6" stroke="#000" stroke-width="1.3"/>
+<line x1="497.2" y1="192.0" x2="145.2" y2="192.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<line x1="145.2" y1="192.0" x2="145.2" y2="168.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="149.9,179.1 145.2,168.0 140.5,179.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="497.2" y1="146.0" x2="363.7" y2="146.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="374.7,141.3 363.7,146.0 374.7,150.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="776.1" y1="130.0" x2="893.4" y2="130.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="882.3,134.7 893.4,130.0 882.3,125.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="636.7" y1="308.5" x2="636.7" y2="230.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="641.3,241.1 636.7,230.0 632.0,241.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="526.3" y1="395.0" x2="407.2" y2="395.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="418.2,390.3 407.2,395.0 418.2,399.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="747.0" y1="395.0" x2="893.7" y2="395.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="882.7,399.7 893.7,395.0 882.7,390.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="636.7" y1="481.5" x2="636.7" y2="560.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="632.0,548.9 636.7,560.0 641.3,548.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="368.5" y1="300.0" x2="497.2" y2="218.4" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="490.4,228.3 497.2,218.4 485.4,220.4" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="218.6" y1="560.0" x2="218.6" y2="490.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="223.3,501.1 218.6,490.0 213.9,501.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="338.0" y1="560.0" x2="526.3" y2="456.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="518.9,465.4 526.3,456.0 514.4,457.2" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="366.1" y1="654.2" x2="503.2" y2="680.5" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="491.5,683.0 503.2,680.5 493.2,673.8" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="740.1" y1="560.0" x2="933.7" y2="481.5" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="925.2,490.0 933.7,481.5 921.7,481.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="770.1" y1="710.0" x2="866.1" y2="710.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="855.1,714.7 866.1,710.0 855.1,705.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect x="497.2" y="30.0" width="279.0" height="200.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="497.2" y="30.0" width="279.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="636.7" y="48.0" font-size="11" text-anchor="middle">«module» 2. API</text>
+<text x="636.7" y="65.0" font-size="13" text-anchor="middle" font-weight="bold">api</text>
+<text x="507.2" y="91.0" font-size="12" text-anchor="start">- SERVER_URL = "http://localhost:5000"</text>
+<line x1="497.2" y1="101.0" x2="776.1" y2="101.0" stroke="#000" stroke-width="1.3"/>
+<text x="507.2" y="118.0" font-size="12" text-anchor="start">- request(path, options): Promise&lt;object&gt;</text>
+<text x="507.2" y="135.0" font-size="12" text-anchor="start">+ getAll(collection)</text>
+<text x="507.2" y="152.0" font-size="12" text-anchor="start">+ findBy(collection, field, value)</text>
+<text x="507.2" y="169.0" font-size="12" text-anchor="start">+ getOne(collection, id)</text>
+<text x="507.2" y="186.0" font-size="12" text-anchor="start">+ create(collection, data)</text>
+<text x="507.2" y="203.0" font-size="12" text-anchor="start">+ update(collection, id, data)</text>
+<text x="507.2" y="220.0" font-size="12" text-anchor="start">+ remove(collection, id)</text>
+<rect x="893.4" y="47.0" width="222.0" height="166.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="893.4" y="47.0" width="222.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1004.4" y="65.0" font-size="11" text-anchor="middle">«external system»</text>
+<text x="1004.4" y="82.0" font-size="13" text-anchor="middle" font-weight="bold">JSON Server 0.17.4</text>
+<text x="903.4" y="108.0" font-size="12" text-anchor="start">port: 5000</text>
+<text x="903.4" y="125.0" font-size="12" text-anchor="start">file: db.json</text>
+<line x1="893.4" y1="135.0" x2="1115.4" y2="135.0" stroke="#000" stroke-width="1.3"/>
+<text x="903.4" y="152.0" font-size="12" text-anchor="start">GET /колекція, GET /колекція/id</text>
+<text x="903.4" y="169.0" font-size="12" text-anchor="start">POST /колекція</text>
+<text x="903.4" y="186.0" font-size="12" text-anchor="start">PATCH /колекція/id</text>
+<text x="903.4" y="203.0" font-size="12" text-anchor="start">DELETE /колекція/id</text>
+<rect x="148.6" y="30.0" width="140.0" height="44.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="148.6" y="30.0" width="140.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="218.6" y="48.0" font-size="11" text-anchor="middle">«JavaScript»</text>
+<text x="218.6" y="65.0" font-size="13" text-anchor="middle" font-weight="bold">Error</text>
+<rect x="73.5" y="124.0" width="143.4" height="44.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="73.5" y="124.0" width="143.4" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="145.2" y="142.0" font-size="11" text-anchor="middle">«exception»</text>
+<text x="145.2" y="159.0" font-size="13" text-anchor="middle" font-weight="bold">ConnectionError</text>
+<rect x="246.9" y="124.0" width="116.8" height="44.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="246.9" y="124.0" width="116.8" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="305.3" y="142.0" font-size="11" text-anchor="middle">«exception»</text>
+<text x="305.3" y="159.0" font-size="13" text-anchor="middle" font-weight="bold">DomainError</text>
+<rect x="30.0" y="300.0" width="377.2" height="190.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="30.0" y="300.0" width="377.2" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="218.6" y="318.0" font-size="11" text-anchor="middle">«module» 4</text>
+<text x="218.6" y="335.0" font-size="13" text-anchor="middle" font-weight="bold">Правила предметної області</text>
+<text x="40.0" y="361.0" font-size="12" text-anchor="start">+ validateAccount(input, editingId): string[]</text>
+<text x="40.0" y="378.0" font-size="12" text-anchor="start">+ validateCategory(input, editingId): string[]</text>
+<text x="40.0" y="395.0" font-size="12" text-anchor="start">+ validateTransaction(input): string[]</text>
+<text x="40.0" y="412.0" font-size="12" text-anchor="start">+ validateFunds(account, type, amountCents): string | null</text>
+<text x="40.0" y="429.0" font-size="12" text-anchor="start">+ balanceEffectCents(transaction): number</text>
+<text x="40.0" y="446.0" font-size="12" text-anchor="start">+ calcBalanceDeltas(oldT, newT): object</text>
+<text x="40.0" y="463.0" font-size="12" text-anchor="start">+ prepareBalanceUpdates(deltas, describeProblem)</text>
+<text x="40.0" y="480.0" font-size="12" text-anchor="start">+ countLinkedTransactions(field, id): number</text>
+<rect x="526.3" y="308.5" width="220.7" height="173.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="526.3" y="308.5" width="220.7" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="636.7" y="326.5" font-size="11" text-anchor="middle">«module» 5</text>
+<text x="636.7" y="343.5" font-size="13" text-anchor="middle" font-weight="bold">Операції з даними</text>
+<text x="536.3" y="369.5" font-size="12" text-anchor="start">+ conductTransaction(data)</text>
+<text x="536.3" y="386.5" font-size="12" text-anchor="start">+ editTransaction(id, data)</text>
+<text x="536.3" y="403.5" font-size="12" text-anchor="start">+ deleteTransaction(id)</text>
+<text x="536.3" y="420.5" font-size="12" text-anchor="start">- applyBalanceUpdates(updates)</text>
+<text x="536.3" y="437.5" font-size="12" text-anchor="start">- rollbackBalances(accounts)</text>
+<text x="536.3" y="454.5" font-size="12" text-anchor="start">+ loadAll()</text>
+<text x="536.3" y="471.5" font-size="12" text-anchor="start">- resetMissingEditing()</text>
+<rect x="893.7" y="308.5" width="221.3" height="173.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="893.7" y="308.5" width="221.3" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1004.4" y="326.5" font-size="11" text-anchor="middle">«object» 1. Стан</text>
+<text x="1004.4" y="343.5" font-size="13" text-anchor="middle" font-weight="bold">state</text>
+<text x="903.7" y="369.5" font-size="12" text-anchor="start">accounts: Account[]</text>
+<text x="903.7" y="386.5" font-size="12" text-anchor="start">categories: Category[]</text>
+<text x="903.7" y="403.5" font-size="12" text-anchor="start">transactions: Transaction[]</text>
+<text x="903.7" y="420.5" font-size="12" text-anchor="start">loaded: boolean</text>
+<text x="903.7" y="437.5" font-size="12" text-anchor="start">editingAccountId: string | null</text>
+<text x="903.7" y="454.5" font-size="12" text-anchor="start">editingCategoryId: string | null</text>
+<text x="903.7" y="471.5" font-size="12" text-anchor="start">editingTransactionId: string | null</text>
+<rect x="503.2" y="560.0" width="267.0" height="292.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="503.2" y="560.0" width="267.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="636.7" y="578.0" font-size="11" text-anchor="middle">«module» 6</text>
+<text x="636.7" y="595.0" font-size="13" text-anchor="middle" font-weight="bold">Рендер</text>
+<text x="513.2" y="621.0" font-size="12" text-anchor="start">+ renderAll()</text>
+<text x="513.2" y="638.0" font-size="12" text-anchor="start">+ renderAccounts()</text>
+<text x="513.2" y="655.0" font-size="12" text-anchor="start">+ renderCategories()</text>
+<text x="513.2" y="672.0" font-size="12" text-anchor="start">+ renderSelectOptions()</text>
+<text x="513.2" y="689.0" font-size="12" text-anchor="start">+ renderTransactionCategoryOptions()</text>
+<text x="513.2" y="706.0" font-size="12" text-anchor="start">+ getVisibleTransactions(): Transaction[]</text>
+<text x="513.2" y="723.0" font-size="12" text-anchor="start">+ renderTransactions()</text>
+<text x="513.2" y="740.0" font-size="12" text-anchor="start">- emptyText(normalText): string</text>
+<text x="513.2" y="757.0" font-size="12" text-anchor="start">- fillSelect(select, optionsHtml)</text>
+<text x="513.2" y="774.0" font-size="12" text-anchor="start">- categoryOptions(categories): string</text>
+<text x="513.2" y="791.0" font-size="12" text-anchor="start">+ resetAccountForm()</text>
+<text x="513.2" y="808.0" font-size="12" text-anchor="start">+ resetCategoryForm()</text>
+<text x="513.2" y="825.0" font-size="12" text-anchor="start">+ resetTransactionForm()</text>
+<text x="513.2" y="842.0" font-size="12" text-anchor="start">+ getSelectedTransactionType(): string</text>
+<rect x="71.1" y="560.0" width="294.9" height="132.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="71.1" y="560.0" width="294.9" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="218.6" y="578.0" font-size="11" text-anchor="middle">«module» 7</text>
+<text x="218.6" y="595.0" font-size="13" text-anchor="middle" font-weight="bold">Обробники подій</text>
+<text x="81.1" y="621.0" font-size="12" text-anchor="start">submit: форми рахунку, категорії, операції</text>
+<text x="81.1" y="638.0" font-size="12" text-anchor="start">click: Редагувати / Видалити / Скасувати</text>
+<text x="81.1" y="655.0" font-size="12" text-anchor="start">input: пошук, фільтри, сортування</text>
+<line x1="71.1" y1="665.0" x2="366.1" y2="665.0" stroke="#000" stroke-width="1.3"/>
+<text x="81.1" y="682.0" font-size="12" text-anchor="start">+ onCategoryListClick(event)</text>
+<rect x="866.1" y="560.0" width="276.4" height="343.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="866.1" y="560.0" width="276.4" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1004.4" y="578.0" font-size="11" text-anchor="middle">«module» 3</text>
+<text x="1004.4" y="595.0" font-size="13" text-anchor="middle" font-weight="bold">Допоміжні функції</text>
+<text x="876.1" y="621.0" font-size="12" text-anchor="start">+ toCents(amount): number</text>
+<text x="876.1" y="638.0" font-size="12" text-anchor="start">+ fromCents(cents): number</text>
+<text x="876.1" y="655.0" font-size="12" text-anchor="start">+ formatMoney(amount): string</text>
+<text x="876.1" y="672.0" font-size="12" text-anchor="start">+ formatDate(isoDate): string</text>
+<text x="876.1" y="689.0" font-size="12" text-anchor="start">+ todayISO(): string</text>
+<text x="876.1" y="706.0" font-size="12" text-anchor="start">+ isValidISODate(text): boolean</text>
+<text x="876.1" y="723.0" font-size="12" text-anchor="start">+ parseAmount(rawText): object</text>
+<text x="876.1" y="740.0" font-size="12" text-anchor="start">+ escapeHtml(text): string</text>
+<text x="876.1" y="757.0" font-size="12" text-anchor="start">+ normalizeName(text): string</text>
+<text x="876.1" y="774.0" font-size="12" text-anchor="start">+ findById(collection, id)</text>
+<text x="876.1" y="791.0" font-size="12" text-anchor="start">+ countWord(n): string</text>
+<text x="876.1" y="808.0" font-size="12" text-anchor="start">+ showFormMessage(element, text, type)</text>
+<text x="876.1" y="825.0" font-size="12" text-anchor="start">+ clearFormMessage(element)</text>
+<text x="876.1" y="842.0" font-size="12" text-anchor="start">+ showGlobalMessage(text)</text>
+<text x="876.1" y="859.0" font-size="12" text-anchor="start">+ clearGlobalMessage()</text>
+<text x="876.1" y="876.0" font-size="12" text-anchor="start">+ handleError(error, messageElement)</text>
+<text x="876.1" y="893.0" font-size="12" text-anchor="start">+ setBusy(form, isBusy)</text>
+<polygon points="40.0,732.0 352.6,732.0 364.6,744.0 364.6,884.0 40.0,884.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="352.6,732.0 352.6,744.0 364.6,744.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="50.0" y="752.0" font-size="12" text-anchor="start">Номери у стереотипах — розділи app.js.</text>
+<text x="50.0" y="769.0" font-size="12" text-anchor="start">Не показано, щоб не перевантажувати схему:</text>
+<text x="50.0" y="786.0" font-size="12" text-anchor="start">– Допоміжні функції (3) використовують</text>
+<text x="50.0" y="803.0" font-size="12" text-anchor="start">   усі модулі;</text>
+<text x="50.0" y="820.0" font-size="12" text-anchor="start">– Правила й Обробники також читають state;</text>
+<text x="50.0" y="837.0" font-size="12" text-anchor="start">– DomainError кидають також Правила</text>
+<text x="50.0" y="854.0" font-size="12" text-anchor="start">   (prepareBalanceUpdates) та Операції</text>
+<text x="50.0" y="871.0" font-size="12" text-anchor="start">   (conductTransaction).</text>
+<text x="586.0" y="941.0" font-size="13" text-anchor="middle" font-style="italic">Структура app.js: розділи коду (модулі) та залежності між ними</text>
+<rect x="356.1" y="183.0" width="56.6" height="18.0" fill="#fff"/>
+<text x="384.4" y="196.3" font-size="12" text-anchor="middle">«throw»</text>
+<rect x="402.1" y="137.0" width="56.6" height="18.0" fill="#fff"/>
+<text x="430.4" y="150.3" font-size="12" text-anchor="middle">«throw»</text>
+<rect x="793.5" y="109.0" width="82.4" height="18.0" fill="#fff"/>
+<text x="834.7" y="122.3" font-size="12" text-anchor="middle">HTTP (fetch)</text>
+</svg>
