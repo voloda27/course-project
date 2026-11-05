@@ -3,393 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Особисті фінанси</title>
-  <style>
-    /* ---------- Кольори та базові стилі ---------- */
-    :root {
-      --bg: #f4f2ee;
-      --surface: #ffffff;
-      --surface-alt: #faf9f6;
-      --text: #1f2421;
-      --muted: #6b716d;
-      --border: #e2ded6;
-      --accent: #1f5f4a;
-      --accent-hover: #174a39;
-      --income: #1b7a4b;
-      --income-bg: #e6f4ec;
-      --expense: #b23a2f;
-      --expense-bg: #fbeae7;
-      --warning-bg: #fff4dc;
-      --warning: #8a5a00;
-      --radius: 10px;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
-      font-size: 15px;
-      line-height: 1.45;
-      background: var(--bg);
-      color: var(--text);
-    }
-
-    header {
-      background: var(--accent);
-      color: #fff;
-      padding: 18px 24px;
-    }
-    header h1 { margin: 0; font-size: 22px; font-weight: 600; letter-spacing: .2px; }
-    header p { margin: 2px 0 0; opacity: .8; font-size: 14px; }
-
-    main {
-      max-width: 1240px;
-      margin: 0 auto;
-      padding: 20px 16px 48px;
-      display: grid;
-      gap: 20px;
-    }
-
-    section {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 18px 20px;
-    }
-    section > h2 { margin: 0 0 14px; font-size: 18px; font-weight: 600; }
-    h3 { margin: 0 0 10px; font-size: 15px; font-weight: 600; }
-
-    /* ---------- Повідомлення ---------- */
-    #message:empty { display: none; }
-    #message {
-      padding: 12px 16px;
-      border-radius: var(--radius);
-      background: var(--expense-bg);
-      color: var(--expense);
-      border: 1px solid #efc3bd;
-      font-weight: 500;
-    }
-
-    .form-message:empty { display: none; }
-    .form-message {
-      margin: 10px 0 0;
-      padding: 8px 12px;
-      border-radius: 8px;
-      font-size: 14px;
-      white-space: pre-line;
-    }
-    .form-message.error { background: var(--expense-bg); color: var(--expense); }
-    .form-message.success { background: var(--income-bg); color: var(--income); }
-
-    /* ---------- Форми ---------- */
-    form { display: grid; gap: 10px; }
-    label { display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
-    input, select {
-      font: inherit;
-      color: var(--text);
-      padding: 8px 10px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: #fff;
-      min-width: 0;
-    }
-    input:focus, select:focus { outline: 2px solid #9cc7b6; border-color: var(--accent); }
-    input:disabled { background: var(--surface-alt); color: var(--muted); }
-    .hint { font-size: 12px; color: var(--muted); }
-
-    .form-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; align-items: end; }
-    .form-actions { display: flex; gap: 8px; flex-wrap: wrap; }
-
-    button {
-      font: inherit;
-      cursor: pointer;
-      border-radius: 8px;
-      padding: 8px 14px;
-      border: 1px solid transparent;
-    }
-    button:disabled { opacity: .6; cursor: wait; }
-    .btn-primary { background: var(--accent); color: #fff; }
-    .btn-primary:hover { background: var(--accent-hover); }
-    .btn-secondary { background: #fff; color: var(--text); border-color: var(--border); }
-    .btn-secondary:hover { background: var(--surface-alt); }
-    .btn-small { padding: 4px 10px; font-size: 13px; }
-    .btn-danger { background: #fff; color: var(--expense); border-color: #efc3bd; }
-    .btn-danger:hover { background: var(--expense-bg); }
-    [hidden] { display: none !important; }
-
-    /* Перемикач типу операції */
-    .type-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
-    .type-switch input { position: absolute; opacity: 0; pointer-events: none; }
-    .type-switch label {
-      display: block;
-      text-align: center;
-      padding: 8px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      cursor: pointer;
-      color: var(--text);
-      font-size: 14px;
-    }
-    .type-switch input:checked + label.expense { background: var(--expense-bg); border-color: var(--expense); color: var(--expense); font-weight: 600; }
-    .type-switch input:checked + label.income { background: var(--income-bg); border-color: var(--income); color: var(--income); font-weight: 600; }
-    .type-switch input:focus-visible + label { outline: 2px solid #9cc7b6; }
-
-    /* ---------- Рахунки ---------- */
-    .accounts-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 12px;
-      margin-bottom: 16px;
-    }
-    .account-card {
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 12px 14px;
-      background: var(--surface-alt);
-      display: grid;
-      gap: 6px;
-    }
-    .account-card .name { font-weight: 600; }
-    .account-card .type { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
-    .account-card .balance { font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; }
-    .account-card .balance.zero { color: var(--muted); }
-    .card-actions { display: flex; gap: 6px; }
-    .account-card.editing, tr.editing td { background: var(--warning-bg); }
-
-    /* ---------- Операції ---------- */
-    .operations-layout { display: grid; grid-template-columns: 320px 1fr; gap: 20px; align-items: start; }
-    .operation-form {
-      background: var(--surface-alt);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 14px;
-    }
-    .filters {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 8px;
-      align-items: end;
-      margin-bottom: 10px;
-    }
-    .filters .search { grid-column: 1 / -1; }
-    .filters .sort { grid-column: span 2; }
-    .list-info { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
-
-    .table-wrap { overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; font-size: 14px; }
-    th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: middle; }
-    th { font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .4px; background: var(--surface-alt); }
-    td.amount, th.amount { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
-    td.amount.income { color: var(--income); font-weight: 600; }
-    td.amount.expense { color: var(--expense); font-weight: 600; }
-    td.actions { white-space: nowrap; text-align: right; }
-    td.comment { color: var(--muted); }
-    .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
-    .badge.income { background: var(--income-bg); color: var(--income); }
-    .badge.expense { background: var(--expense-bg); color: var(--expense); }
-    .empty { color: var(--muted); padding: 16px; text-align: center; }
-
-    /* ---------- Категорії ---------- */
-    .categories-layout { display: grid; grid-template-columns: 1fr 1fr 300px; gap: 20px; align-items: start; }
-    .category-list { list-style: none; margin: 0; padding: 0; }
-    .category-list li {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 8px;
-      padding: 7px 10px;
-      border-bottom: 1px solid var(--border);
-    }
-    .category-list li.editing { background: var(--warning-bg); }
-    .category-list .count { font-size: 12px; color: var(--muted); }
-
-    .accounts-grid .empty { grid-column: 1 / -1; text-align: left; padding: 8px 0; }
-    /* Дозволяє колонкам сітки стискатися, а широкій таблиці — прокручуватися */
-    .operations-layout > *, .categories-layout > * { min-width: 0; }
-
-    @media (max-width: 900px) {
-      .operations-layout, .categories-layout { grid-template-columns: 1fr; }
-    }
-    @media (max-width: 480px) {
-      main { padding: 12px 10px 32px; }
-      section { padding: 14px; }
-      .filters .sort { grid-column: auto; }
-      .accounts-grid { grid-template-columns: 1fr; }
-    }
-  </style>
+  <title>Сімейний бюджет</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Особисті фінанси</h1>
-    <p>Облік рахунків, доходів і витрат · навчальні дані</p>
+  <header class="page-header">
+    <div class="header-inner">
+      <div>
+        <h1>Сімейний бюджет</h1>
+        <p>Курсовий проєкт «Особисті фінанси» · навчальні дані</p>
+      </div>
+    </div>
   </header>
 
   <main>
-    <!-- Загальне повідомлення (недоступність сервера тощо) -->
-    <div id="message" role="alert"></div>
-
-    <!-- ===== Рахунки ===== -->
-    <section id="accounts-section">
-      <h2>Рахунки</h2>
-      <div id="accounts-list" class="accounts-grid"></div>
-
-      <h3 id="account-form-title">Новий рахунок</h3>
-      <form id="account-form" novalidate>
-        <div class="form-row">
-          <label>Назва
-            <input id="account-name" type="text" maxlength="40" placeholder="Напр., Готівка">
-          </label>
-          <label>Тип
-            <select id="account-type">
-              <option value="cash">Готівка</option>
-              <option value="card">Картка</option>
-              <option value="savings">Заощадження</option>
-            </select>
-          </label>
-          <label>Початковий баланс, ₴
-            <input id="account-balance" type="text" inputmode="decimal" placeholder="0,00">
-          </label>
-          <div class="form-actions">
-            <button type="submit" class="btn-primary" id="account-submit">Додати рахунок</button>
-            <button type="button" class="btn-secondary" id="account-cancel" hidden>Скасувати</button>
-          </div>
-        </div>
-        <span class="hint" id="account-balance-hint" hidden>Баланс змінюється лише через операції.</span>
-        <p class="form-message" id="account-message"></p>
-      </form>
-    </section>
-
-    <!-- ===== Операції ===== -->
-    <section id="transactions-section">
-      <h2>Операції</h2>
-      <div class="operations-layout">
-
-        <!-- Форма проведення операції -->
-        <div class="operation-form">
-          <h3 id="transaction-form-title">Нова операція</h3>
-          <form id="transaction-form" novalidate>
-            <div class="type-switch" role="radiogroup" aria-label="Тип операції">
-              <input type="radio" name="transaction-type" id="type-expense" value="expense" checked>
-              <label for="type-expense" class="expense">Витрата</label>
-              <input type="radio" name="transaction-type" id="type-income" value="income">
-              <label for="type-income" class="income">Дохід</label>
-            </div>
-            <label>Сума, ₴
-              <input id="transaction-amount" type="text" inputmode="decimal" placeholder="0,00">
-            </label>
-            <label>Дата
-              <input id="transaction-date" type="date">
-            </label>
-            <label>Рахунок
-              <select id="transaction-account"></select>
-            </label>
-            <label>Категорія
-              <select id="transaction-category"></select>
-            </label>
-            <label>Коментар (необов'язково)
-              <input id="transaction-comment" type="text" maxlength="100" placeholder="Напр., Супермаркет">
-            </label>
-            <div class="form-actions">
-              <button type="submit" class="btn-primary" id="transaction-submit">Провести операцію</button>
-              <button type="button" class="btn-secondary" id="transaction-cancel" hidden>Скасувати</button>
-            </div>
-            <p class="form-message" id="transaction-message"></p>
-          </form>
-        </div>
-
-        <!-- Журнал операцій з пошуком, фільтрами й сортуванням -->
-        <div>
-          <div class="filters">
-            <label class="search">Пошук за коментарем або категорією
-              <input id="filter-search" type="search" placeholder="Напр., продукти">
-            </label>
-            <label>Тип
-              <select id="filter-type">
-                <option value="">Усі</option>
-                <option value="income">Доходи</option>
-                <option value="expense">Витрати</option>
-              </select>
-            </label>
-            <label>Рахунок
-              <select id="filter-account"></select>
-            </label>
-            <label>Категорія
-              <select id="filter-category"></select>
-            </label>
-            <label>Дата від
-              <input id="filter-date-from" type="date">
-            </label>
-            <label>Дата до
-              <input id="filter-date-to" type="date">
-            </label>
-            <label class="sort">Сортування
-              <select id="sort-order">
-                <option value="date-desc">Дата: нові спочатку</option>
-                <option value="date-asc">Дата: старі спочатку</option>
-                <option value="amount-desc">Сума: від більшої</option>
-                <option value="amount-asc">Сума: від меншої</option>
-              </select>
-            </label>
-            <button type="button" class="btn-secondary" id="filter-reset">Скинути фільтри</button>
-          </div>
-          <p class="list-info" id="transactions-info"></p>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Дата</th>
-                  <th>Тип</th>
-                  <th>Категорія</th>
-                  <th>Рахунок</th>
-                  <th>Коментар</th>
-                  <th class="amount">Сума</th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody id="transactions-list"></tbody>
-            </table>
-          </div>
-          <p class="form-message" id="transactions-list-message"></p>
-        </div>
+    <section class="panel">
+      <h2>Оберіть сторінку</h2>
+      <p class="panel-intro">Обидві сторінки працюють з одними даними через JSON Server. Вхід і ролі не передбачені — це дві частини інтерфейсу, а не захист доступу.</p>
+      <div class="role-cards">
+        <a class="role-card" href="client.html">
+          <strong>Член родини</strong>
+          <span>Переглянути рахунки родини, подати заявку на витрату, перевірити її статус або скасувати.</span>
+        </a>
+        <a class="role-card" href="admin.html">
+          <strong>Власник бюджету</strong>
+          <span>Схвалювати й відхиляти заявки, керувати рахунками й категоріями, вести журнал доходів і витрат.</span>
+        </a>
       </div>
     </section>
 
-    <!-- ===== Категорії ===== -->
-    <section id="categories-section">
-      <h2>Категорії</h2>
-      <div class="categories-layout">
-        <div>
-          <h3>Витрати</h3>
-          <ul class="category-list" id="categories-expense"></ul>
-        </div>
-        <div>
-          <h3>Доходи</h3>
-          <ul class="category-list" id="categories-income"></ul>
-        </div>
-        <div class="operation-form">
-          <h3 id="category-form-title">Нова категорія</h3>
-          <form id="category-form" novalidate>
-            <label>Назва
-              <input id="category-name" type="text" maxlength="30" placeholder="Напр., Спорт">
-            </label>
-            <label>Тип
-              <select id="category-type">
-                <option value="expense">Витрата</option>
-                <option value="income">Дохід</option>
-              </select>
-            </label>
-            <div class="form-actions">
-              <button type="submit" class="btn-primary" id="category-submit">Додати категорію</button>
-              <button type="button" class="btn-secondary" id="category-cancel" hidden>Скасувати</button>
-            </div>
-            <p class="form-message" id="category-message"></p>
-          </form>
-        </div>
-      </div>
+    <section class="panel">
+      <h2>Перед роботою</h2>
+      <p class="panel-intro">У терміналі в папці проєкту запустіть JSON Server і не закривайте його:</p>
+      <p><code>npm run server</code> — API на <code>http://localhost:5000</code></p>
+      <p class="muted">Сторінки відкривайте через Live Server (адреса на кшталт <code>http://127.0.0.1:5500/</code>), а не подвійним кліком по файлу.</p>
     </section>
   </main>
-
-  <script src="app.js"></script>
 </body>
 </html>

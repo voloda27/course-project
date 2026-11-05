@@ -1,19 +1,19 @@
 {
   "name": "course-project",
-  "version": "1.0.0",
-  "description": "Курсовий проєкт з дисципліни «Конструювання програмного забезпечення».",
-  "main": "app.js",
+  "version": "0.3.0",
+  "description": "Курсовий проєкт «Особисті фінанси» (сімейний бюджет) з дисципліни «Конструювання програмного забезпечення».",
+  "private": true,
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "json-server --watch db.json --port 5000"
   },
   "keywords": [],
-  "author": "",
+  "author": "Цебенко Володимир Володимирович, ІС-23-01",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "0.17.4"
   }
 }

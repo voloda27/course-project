@@ -1,30 +1,37 @@
 {
   "accounts": [
-    { "id": "1", "name": "Готівка", "type": "cash", "balance": 1267.6 },
-    { "id": "2", "name": "Зарплатна картка", "type": "card", "balance": 2933.85 },
-    { "id": "3", "name": "Скарбничка", "type": "savings", "balance": 6000 },
-    { "id": "4", "name": "Дорожня картка", "type": "card", "balance": 0 }
+    {"id": "1", "name": "Готівка", "type": "cash", "balance": 1267.6, "openForRequests": true},
+    {"id": "2", "name": "Зарплатна картка", "type": "card", "balance": 2933.85, "openForRequests": true},
+    {"id": "3", "name": "Скарбничка", "type": "savings", "balance": 6000, "openForRequests": false},
+    {"id": "4", "name": "Дорожня картка", "type": "card", "balance": 0, "openForRequests": true}
   ],
   "categories": [
-    { "id": "1", "name": "Продукти", "type": "expense" },
-    { "id": "2", "name": "Транспорт", "type": "expense" },
-    { "id": "3", "name": "Комунальні послуги", "type": "expense" },
-    { "id": "4", "name": "Розваги", "type": "expense" },
-    { "id": "5", "name": "Здоров'я", "type": "expense" },
-    { "id": "6", "name": "Одяг", "type": "expense" },
-    { "id": "7", "name": "Стипендія", "type": "income" },
-    { "id": "8", "name": "Підробіток", "type": "income" },
-    { "id": "9", "name": "Подарунки", "type": "income" }
+    {"id": "1", "name": "Продукти", "type": "expense"},
+    {"id": "2", "name": "Транспорт", "type": "expense"},
+    {"id": "3", "name": "Комунальні послуги", "type": "expense"},
+    {"id": "4", "name": "Розваги", "type": "expense"},
+    {"id": "5", "name": "Здоров'я", "type": "expense"},
+    {"id": "6", "name": "Одяг", "type": "expense"},
+    {"id": "7", "name": "Стипендія", "type": "income"},
+    {"id": "8", "name": "Підробіток", "type": "income"},
+    {"id": "9", "name": "Подарунки", "type": "income"}
   ],
   "transactions": [
-    { "id": "1", "type": "income", "amount": 2000, "date": "2026-10-01", "accountId": "2", "categoryId": "7", "comment": "Стипендія за жовтень" },
-    { "id": "2", "type": "expense", "amount": 450.5, "date": "2026-10-03", "accountId": "2", "categoryId": "1", "comment": "Супермаркет, тижневі покупки" },
-    { "id": "3", "type": "expense", "amount": 120, "date": "2026-10-05", "accountId": "1", "categoryId": "2", "comment": "Проїзний на тиждень" },
-    { "id": "4", "type": "income", "amount": 1500, "date": "2026-10-10", "accountId": "1", "categoryId": "8", "comment": "Налаштування комп'ютера сусідові" },
-    { "id": "5", "type": "expense", "amount": 1325.75, "date": "2026-10-12", "accountId": "2", "categoryId": "3", "comment": "Світло та інтернет" },
-    { "id": "6", "type": "expense", "amount": 300, "date": "2026-10-15", "accountId": "1", "categoryId": "4", "comment": "Кіно з друзями" },
-    { "id": "7", "type": "income", "amount": 1000, "date": "2026-10-18", "accountId": "3", "categoryId": "9", "comment": "Подарунок на день народження" },
-    { "id": "8", "type": "expense", "amount": 289.9, "date": "2026-10-20", "accountId": "2", "categoryId": "5", "comment": "Аптека" },
-    { "id": "9", "type": "expense", "amount": 612.4, "date": "2026-10-24", "accountId": "1", "categoryId": "1", "comment": "Ринок, овочі та фрукти" }
+    {"id": "1", "type": "income", "amount": 2000, "date": "2026-10-01", "accountId": "2", "categoryId": "7", "comment": "Стипендія за жовтень"},
+    {"id": "2", "type": "expense", "amount": 450.5, "date": "2026-10-03", "accountId": "2", "categoryId": "1", "comment": "Супермаркет, тижневі покупки"},
+    {"id": "3", "type": "expense", "amount": 120, "date": "2026-10-05", "accountId": "1", "categoryId": "2", "comment": "Проїзний на тиждень"},
+    {"id": "4", "type": "income", "amount": 1500, "date": "2026-10-10", "accountId": "1", "categoryId": "8", "comment": "Налаштування комп'ютера сусідові"},
+    {"id": "5", "type": "expense", "amount": 1325.75, "date": "2026-10-12", "accountId": "2", "categoryId": "3", "comment": "Світло та інтернет"},
+    {"id": "6", "type": "expense", "amount": 300, "date": "2026-10-15", "accountId": "1", "categoryId": "4", "comment": "Кіно з друзями"},
+    {"id": "7", "type": "income", "amount": 1000, "date": "2026-10-18", "accountId": "3", "categoryId": "9", "comment": "Подарунок на день народження"},
+    {"id": "8", "type": "expense", "amount": 289.9, "date": "2026-10-20", "accountId": "2", "categoryId": "5", "comment": "Аптека", "requestId": "1"},
+    {"id": "9", "type": "expense", "amount": 612.4, "date": "2026-10-24", "accountId": "1", "categoryId": "1", "comment": "Ринок, овочі та фрукти"}
+  ],
+  "requests": [
+    {"id": "1", "requesterName": "Олена", "accountId": "2", "categoryId": "5", "amount": 289.9, "purpose": "Ліки з аптеки", "status": "approved", "createdAt": "2026-10-19T17:20:00.000Z", "updatedAt": "2026-10-20T08:05:00.000Z", "adminComment": "", "transactionId": "8"},
+    {"id": "2", "requesterName": "Андрій", "accountId": "2", "categoryId": "4", "amount": 2500, "purpose": "Бездротові навушники", "status": "rejected", "createdAt": "2026-10-22T15:40:00.000Z", "updatedAt": "2026-10-22T19:10:00.000Z", "adminComment": "Цього місяця не вкладаємось у бюджет"},
+    {"id": "3", "requesterName": "Андрій", "accountId": "1", "categoryId": "4", "amount": 200, "purpose": "Кіно з однокласниками", "status": "cancelled", "createdAt": "2026-10-25T12:00:00.000Z", "updatedAt": "2026-10-25T13:30:00.000Z", "adminComment": ""},
+    {"id": "4", "requesterName": "Андрій", "accountId": "1", "categoryId": "2", "amount": 150, "purpose": "Проїзний на листопад", "status": "new", "createdAt": "2026-11-02T07:45:00.000Z", "updatedAt": "2026-11-02T07:45:00.000Z", "adminComment": ""},
+    {"id": "5", "requesterName": "Олена", "accountId": "2", "categoryId": "1", "amount": 800, "purpose": "Продукти на вихідні", "status": "new", "createdAt": "2026-11-03T16:10:00.000Z", "updatedAt": "2026-11-03T16:10:00.000Z", "adminComment": ""}
   ]
 }

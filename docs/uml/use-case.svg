@@ -1,125 +1,137 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="1060" viewBox="0 0 1340 1060" font-family="DejaVu Sans, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1540" height="960" viewBox="0 0 1540 960" font-family="DejaVu Sans, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpjYzAwMzYyYi04NmQ1LTQ1ZTUtYmJlZi1hYjhiOGE1Nzc2ODcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOC2lgwVA5YcpVxnwqM5/L4AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowZTg4NTViZi04MDRiLTRiZDAtOWQ3OS03Njg5M2JhZWIyYzBscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoZ8Xk3BY7KOOapbTuL7WUhgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggQ5r0ofOuUpkf7mqChfMdlmUk9/JDLsdBGFV2V4YwD9OkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaDhu//FzO22h/5GvCYIRYMQAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDJvGIz7zTsXg2Oxb0wsmKpg1uJ8GdhtKMsJCEVDn7yfmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjFZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmNjMDAzNjJiLTg2ZDUtNDVlNS1iYmVmLWFiOGI4YTU3NzY4Ny9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmY3MDdlMTMzLTBlNzgtNDM2Ny05M2I0LTczM2FlNzVmYzAxN3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBDmvSh865SmR/uaoKF8x2WZST38kMux0EYVXZXhjAP06JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggpidMJ8clA69NGRYfbdvysnVgh2L1yBXWeJefZ08OOdSiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgghk0SkC3Z1eGrLrCzgSjwWBPPEAmpwAg4dqVTwk6XPOp0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQHAbj51WpHi66xOjVO6l2dgmLkBbDOm7DdtcJDuscwykyxjz4uux/T7T3vPQZG7B2nWj3van+JYlKZZACNIOG94=</c2pa:manifest></metadata>
 <rect width="100%" height="100%" fill="#fff"/>
-<rect x="230.0" y="30.0" width="1090.0" height="1010.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="775.0" y="60.0" font-size="17" text-anchor="middle" font-weight="bold">Програма «Особисті фінанси»</text>
-<circle cx="100" cy="454.0" r="13" fill="#fff" stroke="#000" stroke-width="1.5"/>
-<line x1="100.0" y1="467.0" x2="100.0" y2="509.0" stroke="#000" stroke-width="1.5"/>
-<line x1="76.0" y1="482.0" x2="124.0" y2="482.0" stroke="#000" stroke-width="1.5"/>
-<line x1="100.0" y1="509.0" x2="80.0" y2="539.0" stroke="#000" stroke-width="1.5"/>
-<line x1="100.0" y1="509.0" x2="120.0" y2="539.0" stroke="#000" stroke-width="1.5"/>
-<text x="100.0" y="560.0" font-size="14" text-anchor="middle">Власник</text>
-<text x="100.0" y="577.0" font-size="14" text-anchor="middle">бюджету</text>
-<line x1="126.0" y1="482.0" x2="410.0" y2="118.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="184.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="250.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="316.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="382.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="448.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="514.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="580.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="646.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="712.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="778.0" stroke="#000" stroke-width="1.3"/>
-<line x1="126.0" y1="482.0" x2="410.0" y2="910.0" stroke="#000" stroke-width="1.3"/>
-<line x1="646.6" y1="338.9" x2="963.4" y2="422.5" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="951.5,424.2 963.4,422.5 953.9,415.2" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="646.6" y1="557.1" x2="963.4" y2="473.5" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="953.9,480.8 963.4,473.5 951.5,471.8" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="682.5" y1="662.2" x2="926.5" y2="694.4" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="914.9,697.6 926.5,694.4 916.1,688.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="710.0" y1="712.0" x2="900.0" y2="712.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="888.9,716.7 900.0,712.0 888.9,707.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="682.5" y1="761.8" x2="926.5" y2="729.6" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="916.1,735.7 926.5,729.6 914.9,726.4" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="1060.0" y1="680.0" x2="1060.0" y2="612.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="1064.7,623.1 1060.0,612.0 1055.3,623.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="946.4" y1="854.4" x2="678.8" y2="892.9" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="689.0,886.7 678.8,892.9 690.4,895.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="920.0" y1="910.0" x2="710.0" y2="910.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="721.1,905.3 710.0,910.0 721.1,914.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="946.4" y1="965.6" x2="678.8" y2="927.1" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="690.4,924.1 678.8,927.1 689.0,933.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<ellipse cx="560.0" cy="118.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="114.5" font-size="14" text-anchor="middle">Переглянути рахунки</text>
-<text x="560.0" y="131.5" font-size="12" text-anchor="middle">(ФВ-01)</text>
-<ellipse cx="560.0" cy="184.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="180.5" font-size="14" text-anchor="middle">Додати рахунок</text>
-<text x="560.0" y="197.5" font-size="12" text-anchor="middle">(ФВ-02)</text>
-<ellipse cx="560.0" cy="250.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="246.5" font-size="14" text-anchor="middle">Редагувати рахунок</text>
-<text x="560.0" y="263.5" font-size="12" text-anchor="middle">(ФВ-03)</text>
-<ellipse cx="560.0" cy="316.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="312.5" font-size="14" text-anchor="middle">Видалити рахунок</text>
-<text x="560.0" y="329.5" font-size="12" text-anchor="middle">(ФВ-04)</text>
-<ellipse cx="560.0" cy="382.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="378.5" font-size="14" text-anchor="middle">Переглянути категорії</text>
-<text x="560.0" y="395.5" font-size="12" text-anchor="middle">(ФВ-05)</text>
-<ellipse cx="560.0" cy="448.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="444.5" font-size="14" text-anchor="middle">Додати категорію</text>
-<text x="560.0" y="461.5" font-size="12" text-anchor="middle">(ФВ-06)</text>
-<ellipse cx="560.0" cy="514.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="510.5" font-size="14" text-anchor="middle">Редагувати категорію</text>
-<text x="560.0" y="527.5" font-size="12" text-anchor="middle">(ФВ-07)</text>
-<ellipse cx="560.0" cy="580.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="576.5" font-size="14" text-anchor="middle">Видалити категорію</text>
-<text x="560.0" y="593.5" font-size="12" text-anchor="middle">(ФВ-08)</text>
-<ellipse cx="560.0" cy="646.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="642.5" font-size="14" text-anchor="middle">Провести операцію</text>
-<text x="560.0" y="659.5" font-size="12" text-anchor="middle">(ФВ-10)</text>
-<ellipse cx="560.0" cy="712.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="708.5" font-size="14" text-anchor="middle">Редагувати операцію</text>
-<text x="560.0" y="725.5" font-size="12" text-anchor="middle">(ФВ-11)</text>
-<ellipse cx="560.0" cy="778.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="774.5" font-size="14" text-anchor="middle">Видалити операцію</text>
-<text x="560.0" y="791.5" font-size="12" text-anchor="middle">(ФВ-12)</text>
-<ellipse cx="560.0" cy="910.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="560.0" y="906.5" font-size="14" text-anchor="middle">Переглянути журнал</text>
-<text x="560.0" y="923.5" font-size="14" text-anchor="middle">операцій (ФВ-09)</text>
-<ellipse cx="1060.0" cy="448.0" rx="160.0" ry="32.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="1060.0" y="444.5" font-size="14" text-anchor="middle">Перевірити наявність</text>
-<text x="1060.0" y="461.5" font-size="14" text-anchor="middle">пов'язаних операцій</text>
-<ellipse cx="1060.0" cy="580.0" rx="182.0" ry="32.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="1060.0" y="576.5" font-size="14" text-anchor="middle">Перевірити достатність коштів</text>
-<text x="1060.0" y="593.5" font-size="12" text-anchor="middle">(витрата ≤ баланс рахунку)</text>
-<ellipse cx="1060.0" cy="712.0" rx="160.0" ry="32.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="1060.0" y="708.5" font-size="14" text-anchor="middle">Перерахувати баланс</text>
-<text x="1060.0" y="725.5" font-size="14" text-anchor="middle">рахунку</text>
-<ellipse cx="1060.0" cy="838.0" rx="140.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="1060.0" y="834.5" font-size="14" text-anchor="middle">Знайти операції</text>
-<text x="1060.0" y="851.5" font-size="12" text-anchor="middle">(ФВ-13)</text>
-<ellipse cx="1060.0" cy="910.0" rx="140.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="1060.0" y="906.5" font-size="14" text-anchor="middle">Фільтрувати операції</text>
-<text x="1060.0" y="923.5" font-size="12" text-anchor="middle">(ФВ-14)</text>
-<ellipse cx="1060.0" cy="982.0" rx="140.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<text x="1060.0" y="978.5" font-size="14" text-anchor="middle">Сортувати операції</text>
-<text x="1060.0" y="995.5" font-size="12" text-anchor="middle">(ФВ-15)</text>
-<polygon points="900.0,92.0 1185.0,92.0 1197.0,104.0 1197.0,176.0 900.0,176.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<polyline points="1185.0,92.0 1185.0,104.0 1197.0,104.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<text x="910.0" y="112.0" font-size="12" text-anchor="start">Прецеденти додавання та редагування</text>
-<text x="910.0" y="129.0" font-size="12" text-anchor="start">включають перевірку введених даних</text>
-<text x="910.0" y="146.0" font-size="12" text-anchor="start">(ФВ-16). Якщо JSON Server недоступний,</text>
-<text x="910.0" y="163.0" font-size="12" text-anchor="start">користувач бачить повідомлення (ФВ-17).</text>
-<polygon points="900.0,230.0 1185.2,230.0 1197.2,242.0 1197.2,297.0 900.0,297.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<polyline points="1185.2,230.0 1185.2,242.0 1197.2,242.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<text x="910.0" y="250.0" font-size="12" text-anchor="start">Рахунок або категорію з операціями</text>
-<text x="910.0" y="267.0" font-size="12" text-anchor="start">видалити не можна.</text>
-<text x="910.0" y="284.0" font-size="12" text-anchor="start">Баланс рахунку не може стати від'ємним.</text>
-<rect x="771.9" y="371.7" width="66.2" height="18.0" fill="#fff"/>
-<text x="805.0" y="385.0" font-size="12" text-anchor="middle">«include»</text>
-<rect x="771.9" y="506.3" width="66.2" height="18.0" fill="#fff"/>
-<text x="805.0" y="519.6" font-size="12" text-anchor="middle">«include»</text>
-<rect x="771.4" y="669.3" width="66.2" height="18.0" fill="#fff"/>
-<text x="804.5" y="682.6" font-size="12" text-anchor="middle">«include»</text>
-<rect x="771.9" y="703.0" width="66.2" height="18.0" fill="#fff"/>
-<text x="805.0" y="716.3" font-size="12" text-anchor="middle">«include»</text>
-<rect x="771.4" y="736.7" width="66.2" height="18.0" fill="#fff"/>
-<text x="804.5" y="750.1" font-size="12" text-anchor="middle">«include»</text>
-<rect x="1026.9" y="637.0" width="66.2" height="18.0" fill="#fff"/>
-<text x="1060.0" y="650.3" font-size="12" text-anchor="middle">«include»</text>
-<rect x="793.8" y="862.7" width="64.3" height="18.0" fill="#fff"/>
-<text x="826.0" y="876.0" font-size="12" text-anchor="middle">«extend»</text>
-<rect x="793.3" y="901.0" width="64.3" height="18.0" fill="#fff"/>
-<text x="825.5" y="914.3" font-size="12" text-anchor="middle">«extend»</text>
-<rect x="793.8" y="939.3" width="64.3" height="18.0" fill="#fff"/>
-<text x="826.0" y="952.6" font-size="12" text-anchor="middle">«extend»</text>
+<rect x="190.0" y="30.0" width="1150.0" height="910.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="765.0" y="60.0" font-size="17" text-anchor="middle" font-weight="bold">Програма «Сімейний бюджет»</text>
+<circle cx="80" cy="330" r="13" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<line x1="80.0" y1="343.0" x2="80.0" y2="385.0" stroke="#000" stroke-width="1.5"/>
+<line x1="56.0" y1="358.0" x2="104.0" y2="358.0" stroke="#000" stroke-width="1.5"/>
+<line x1="80.0" y1="385.0" x2="60.0" y2="415.0" stroke="#000" stroke-width="1.5"/>
+<line x1="80.0" y1="385.0" x2="100.0" y2="415.0" stroke="#000" stroke-width="1.5"/>
+<text x="80.0" y="436.0" font-size="14" text-anchor="middle">Член</text>
+<text x="80.0" y="453.0" font-size="14" text-anchor="middle">родини</text>
+<line x1="106.0" y1="358.0" x2="205.0" y2="200.0" stroke="#000" stroke-width="1.3"/>
+<line x1="106.0" y1="358.0" x2="205.0" y2="330.0" stroke="#000" stroke-width="1.3"/>
+<line x1="106.0" y1="358.0" x2="205.0" y2="460.0" stroke="#000" stroke-width="1.3"/>
+<line x1="106.0" y1="358.0" x2="205.0" y2="590.0" stroke="#000" stroke-width="1.3"/>
+<circle cx="1460" cy="330" r="13" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<line x1="1460.0" y1="343.0" x2="1460.0" y2="385.0" stroke="#000" stroke-width="1.5"/>
+<line x1="1436.0" y1="358.0" x2="1484.0" y2="358.0" stroke="#000" stroke-width="1.5"/>
+<line x1="1460.0" y1="385.0" x2="1440.0" y2="415.0" stroke="#000" stroke-width="1.5"/>
+<line x1="1460.0" y1="385.0" x2="1480.0" y2="415.0" stroke="#000" stroke-width="1.5"/>
+<text x="1460.0" y="436.0" font-size="14" text-anchor="middle">Власник</text>
+<text x="1460.0" y="453.0" font-size="14" text-anchor="middle">бюджету</text>
+<line x1="1434.0" y1="358.0" x2="1305.0" y2="120.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1434.0" y1="358.0" x2="1305.0" y2="280.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1434.0" y1="358.0" x2="1305.0" y2="360.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1434.0" y1="358.0" x2="1305.0" y2="200.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1434.0" y1="358.0" x2="1305.0" y2="440.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1434.0" y1="358.0" x2="1305.0" y2="520.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1434.0" y1="358.0" x2="1305.0" y2="600.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1434.0" y1="358.0" x2="1305.0" y2="690.0" stroke="#000" stroke-width="1.3"/>
+<line x1="438.7" y1="307.7" x2="658.4" y2="255.4" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="648.7,262.5 658.4,255.4 646.6,253.4" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1031.4" y1="264.1" x2="908.3" y2="248.4" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="919.8,245.1 908.3,248.4 918.7,254.4" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1016.3" y1="210.7" x2="926.3" y2="217.6" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="937.0,212.1 926.3,217.6 937.7,221.4" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="410.5" y1="563.5" x2="693.7" y2="448.9" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="685.2,457.3 693.7,448.9 681.7,448.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1085.8" y1="304.8" x2="843.4" y2="391.8" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="852.3,383.7 843.4,391.8 855.4,392.5" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1039.2" y1="377.8" x2="894.3" y2="400.1" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="904.5,393.8 894.3,400.1 905.9,403.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1054.0" y1="540.7" x2="875.0" y2="577.4" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="884.8,570.6 875.0,577.4 886.7,579.8" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1005.0" y1="600.0" x2="920.0" y2="600.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="931.1,595.3 920.0,600.0 931.1,604.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="890.0" y1="690.0" x2="1005.0" y2="690.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="993.9,694.7 1005.0,690.0 993.9,685.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="854.6" y1="755.5" x2="1057.4" y2="711.3" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="1047.6,718.2 1057.4,711.3 1045.6,709.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="822.1" y1="835.1" x2="1096.0" y2="715.7" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="1087.7,724.4 1096.0,715.7 1084.0,715.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<ellipse cx="345.0" cy="200.0" rx="140.0" ry="30.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="345.0" y="196.7" font-size="13" text-anchor="middle">Переглянути рахунки</text>
+<text x="345.0" y="212.7" font-size="13" text-anchor="middle">для заявок (ФВ-01)</text>
+<ellipse cx="345.0" cy="330.0" rx="140.0" ry="30.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="345.0" y="326.7" font-size="13" text-anchor="middle">Подати заявку</text>
+<text x="345.0" y="342.7" font-size="13" text-anchor="middle">на витрату (ФВ-02)</text>
+<ellipse cx="345.0" cy="460.0" rx="140.0" ry="30.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="345.0" y="456.7" font-size="13" text-anchor="middle">Перевірити статус</text>
+<text x="345.0" y="472.7" font-size="13" text-anchor="middle">своїх заявок (ФВ-03)</text>
+<ellipse cx="345.0" cy="590.0" rx="140.0" ry="30.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="345.0" y="586.7" font-size="13" text-anchor="middle">Скасувати нову</text>
+<text x="345.0" y="602.7" font-size="13" text-anchor="middle">заявку (ФВ-04)</text>
+<ellipse cx="1155.0" cy="120.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1155.0" y="116.7" font-size="13" text-anchor="middle">Переглянути заявки</text>
+<text x="1155.0" y="132.7" font-size="11" text-anchor="middle">(ФВ-05)</text>
+<ellipse cx="1155.0" cy="280.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1155.0" y="276.7" font-size="13" text-anchor="middle">Схвалити заявку</text>
+<text x="1155.0" y="292.7" font-size="11" text-anchor="middle">(ФВ-06)</text>
+<ellipse cx="1155.0" cy="360.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1155.0" y="356.7" font-size="13" text-anchor="middle">Відхилити заявку</text>
+<text x="1155.0" y="372.7" font-size="13" text-anchor="middle">з причиною (ФВ-07)</text>
+<ellipse cx="1155.0" cy="200.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1155.0" y="196.7" font-size="13" text-anchor="middle">Провести дохід</text>
+<text x="1155.0" y="212.7" font-size="13" text-anchor="middle">або витрату (ФВ-14)</text>
+<ellipse cx="1155.0" cy="440.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1155.0" y="436.7" font-size="13" text-anchor="middle">Змінити / видалити</text>
+<text x="1155.0" y="452.7" font-size="13" text-anchor="middle">операцію (ФВ-15)</text>
+<ellipse cx="1155.0" cy="520.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1155.0" y="516.7" font-size="13" text-anchor="middle">Керувати рахунками</text>
+<text x="1155.0" y="532.7" font-size="11" text-anchor="middle">(ФВ-08 – ФВ-11)</text>
+<ellipse cx="1155.0" cy="600.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1155.0" y="596.7" font-size="13" text-anchor="middle">Керувати категоріями</text>
+<text x="1155.0" y="612.7" font-size="11" text-anchor="middle">(ФВ-12)</text>
+<ellipse cx="1155.0" cy="690.0" rx="150.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="1155.0" y="686.7" font-size="13" text-anchor="middle">Переглянути журнал</text>
+<text x="1155.0" y="702.7" font-size="13" text-anchor="middle">операцій (ФВ-13)</text>
+<ellipse cx="765.0" cy="420.0" rx="165.0" ry="32.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="765.0" y="416.7" font-size="13" text-anchor="middle">Перевірити допустимість</text>
+<text x="765.0" y="432.7" font-size="13" text-anchor="middle">переходу статусу</text>
+<ellipse cx="765.0" cy="230.0" rx="175.0" ry="32.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="765.0" y="226.7" font-size="13" text-anchor="middle">Перевірити достатність коштів</text>
+<text x="765.0" y="242.7" font-size="11" text-anchor="middle">(сума ≤ баланс рахунку)</text>
+<ellipse cx="765.0" cy="600.0" rx="155.0" ry="32.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="765.0" y="596.7" font-size="13" text-anchor="middle">Перевірити пов'язані</text>
+<text x="765.0" y="612.7" font-size="13" text-anchor="middle">операції та заявки</text>
+<ellipse cx="765.0" cy="690.0" rx="125.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="765.0" y="686.7" font-size="13" text-anchor="middle">Знайти операції</text>
+<text x="765.0" y="702.7" font-size="11" text-anchor="middle">(ФВ-16)</text>
+<ellipse cx="765.0" cy="775.0" rx="125.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="765.0" y="771.7" font-size="13" text-anchor="middle">Фільтрувати операції</text>
+<text x="765.0" y="787.7" font-size="11" text-anchor="middle">(ФВ-17)</text>
+<ellipse cx="765.0" cy="860.0" rx="125.0" ry="28.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<text x="765.0" y="856.7" font-size="13" text-anchor="middle">Сортувати операції</text>
+<text x="765.0" y="872.7" font-size="11" text-anchor="middle">(ФВ-18)</text>
+<polygon points="210.0,680.0 480.9,680.0 492.9,692.0 492.9,798.0 210.0,798.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="480.9,680.0 480.9,692.0 492.9,692.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="220.0" y="700.0" font-size="12" text-anchor="start">Усі прецеденти включають перевірку</text>
+<text x="220.0" y="717.0" font-size="12" text-anchor="start">введених даних (ФВ-19) і показують</text>
+<text x="220.0" y="734.0" font-size="12" text-anchor="start">повідомлення, якщо JSON Server</text>
+<text x="220.0" y="751.0" font-size="12" text-anchor="start">недоступний або запису немає (ФВ-20).</text>
+<text x="220.0" y="768.0" font-size="12" text-anchor="start">Вхід і ролі не передбачені:</text>
+<text x="220.0" y="785.0" font-size="12" text-anchor="start">актори — користувачі двох сторінок.</text>
+<rect x="515.4" y="272.5" width="66.2" height="18.0" fill="#fff"/>
+<text x="548.5" y="285.9" font-size="12" text-anchor="middle">«include»</text>
+<rect x="936.7" y="247.3" width="66.2" height="18.0" fill="#fff"/>
+<text x="969.8" y="260.6" font-size="12" text-anchor="middle">«include»</text>
+<rect x="938.2" y="205.1" width="66.2" height="18.0" fill="#fff"/>
+<text x="971.3" y="218.4" font-size="12" text-anchor="middle">«include»</text>
+<rect x="519.0" y="497.2" width="66.2" height="18.0" fill="#fff"/>
+<text x="552.1" y="510.5" font-size="12" text-anchor="middle">«include»</text>
+<rect x="931.5" y="339.3" width="66.2" height="18.0" fill="#fff"/>
+<text x="964.6" y="352.7" font-size="12" text-anchor="middle">«include»</text>
+<rect x="933.7" y="380.0" width="66.2" height="18.0" fill="#fff"/>
+<text x="966.8" y="393.3" font-size="12" text-anchor="middle">«include»</text>
+<rect x="931.4" y="550.1" width="66.2" height="18.0" fill="#fff"/>
+<text x="964.5" y="563.4" font-size="12" text-anchor="middle">«include»</text>
+<rect x="929.4" y="591.0" width="66.2" height="18.0" fill="#fff"/>
+<text x="962.5" y="604.3" font-size="12" text-anchor="middle">«include»</text>
+<rect x="915.3" y="681.0" width="64.3" height="18.0" fill="#fff"/>
+<text x="947.5" y="694.3" font-size="12" text-anchor="middle">«extend»</text>
+<rect x="923.9" y="724.4" width="64.3" height="18.0" fill="#fff"/>
+<text x="956.0" y="737.7" font-size="12" text-anchor="middle">«extend»</text>
+<rect x="926.9" y="766.4" width="64.3" height="18.0" fill="#fff"/>
+<text x="959.0" y="779.7" font-size="12" text-anchor="middle">«extend»</text>
 </svg>

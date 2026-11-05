@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заявка на витрату — Сімейний бюджет</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <div>
+        <h1>Сімейний бюджет · Член родини</h1>
+        <p>Заявки на витрату з рахунків родини</p>
+      </div>
+      <nav class="top-nav" aria-label="Сторінки">
+        <a href="index.html">Головна</a>
+        <a href="client.html" aria-current="page">Член родини</a>
+        <a href="admin.html">Власник бюджету</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Загальне повідомлення: недоступність сервера -->
+    <div id="global-error" class="global-error" role="alert" hidden></div>
+
+    <!-- ===== Перелік «пропозицій»: рахунки, відкриті для заявок ===== -->
+    <section class="panel" id="accounts-section">
+      <h2>Рахунки родини</h2>
+      <p class="panel-intro">Рахунки, з яких можна попросити витрату. Сума заявки не може перевищувати баланс рахунку.</p>
+      <div id="accounts-list" class="accounts-grid">
+        <div class="state state-loading">Завантаження рахунків…</div>
+      </div>
+      <div class="form-actions">
+        <button type="button" class="btn-secondary btn-small" id="accounts-refresh">Оновити рахунки</button>
+      </div>
+    </section>
+
+    <div class="two-columns">
+      <!-- ===== Форма заявки ===== -->
+      <section class="panel" id="request-section">
+        <h2>Нова заявка на витрату</h2>
+        <p class="panel-intro">Власник бюджету розгляне заявку: схвалить (гроші буде списано) або відхилить із причиною.</p>
+        <form id="request-form" novalidate>
+          <label>Ваше ім'я
+            <input id="request-name" type="text" maxlength="40" autocomplete="given-name" placeholder="Напр., Олена">
+          </label>
+          <label>Рахунок
+            <select id="request-account"></select>
+          </label>
+          <label>Категорія витрати
+            <select id="request-category"></select>
+          </label>
+          <label>Сума, ₴
+            <input id="request-amount" type="text" inputmode="decimal" placeholder="0,00">
+          </label>
+          <label>Призначення
+            <textarea id="request-purpose" maxlength="100" rows="2" placeholder="Напр., Проїзний на листопад"></textarea>
+            <span class="hint">Від 3 до 100 символів.</span>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn-primary" id="request-submit">Надіслати заявку</button>
+          </div>
+          <p class="form-message" id="request-message" role="status"></p>
+        </form>
+      </section>
+
+      <!-- ===== Статус заявок ===== -->
+      <section class="panel" id="status-section">
+        <h2>Мої заявки</h2>
+        <p class="panel-intro">Введіть ім'я, з яким подавали заявку, і натисніть «Оновити», щоб побачити актуальний статус.</p>
+        <form id="lookup-form" class="toolbar" novalidate>
+          <label>Ім'я
+            <input id="lookup-name" type="text" maxlength="40" placeholder="Напр., Андрій">
+          </label>
+          <button type="submit" class="btn-primary" id="lookup-submit">Оновити</button>
+        </form>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Подано</th>
+                <th>Рахунок</th>
+                <th>Категорія</th>
+                <th>Призначення</th>
+                <th class="amount">Сума</th>
+                <th>Статус</th>
+                <th>Коментар власника</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="my-requests">
+              <tr><td colspan="8"><div class="state">Введіть ім'я, щоб побачити свої заявки.</div></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="form-message" id="lookup-message" role="status"></p>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="js/client.js"></script>
+</body>
+</html>

@@ -1,79 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="650" viewBox="0 0 1240 650" font-family="DejaVu Sans, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="830" viewBox="0 0 1320 830" font-family="DejaVu Sans, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo2YWIzNTliMS1kNzQzLTQyMWMtYjcwYy03NTgwNmUyZmRmZmQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaNDzMnPNHfVijmPR6h9RSzsAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0ZGU3ZTdhMi0wMTU4LTRhMTMtYTMzOS02MjFiMjU5MWI5MGZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNot+6vRh8th19bM//6oh9buQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggid5RdLulMzRbD+nrlRqgyumKrRAtzEiIaBxmTWnm7qykZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaMj1u3ZTILvKuiNL7tXCqAEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDoC4Ua8PZHRnGh914WTc1c++EV0ET10EP9TZdlCwZZ0mRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjFZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjZhYjM1OWIxLWQ3NDMtNDIxYy1iNzBjLTc1ODA2ZTJmZGZmZC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmJiZDA4ZGRlLTA4ZjctNDNlYy1iZGQ3LWVlNDE2ZWI1NmQ4M3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCJ3lF0u6UzNFsP6euVGqDK6YqtEC3MSIhoHGZNaeburKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgghL+ClV7pBT7unyKm5Z4s5poIsdaRowdaIe55HzvBFXKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggJ5I4OcdCiSjB3BJ0qlY4NMqrT7HIH7TvDEJMEmJTusd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQDq5LKrxut641J0um3VI3313p3KKutGYdiIBm23leYF826Rh9Sh4/HE645TU64v4f8aj4o6+Fc+QL+5MhmQJ5ZM=</c2pa:manifest></metadata>
 <rect width="100%" height="100%" fill="#fff"/>
-<line x1="270.0" y1="190.0" x2="470.0" y2="190.0" stroke="#000" stroke-width="1.3"/>
-<line x1="960.0" y1="190.0" x2="760.0" y2="190.0" stroke="#000" stroke-width="1.3"/>
-<line x1="155.0" y1="248.0" x2="155.0" y2="470.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="150.3,458.9 155.0,470.0 159.7,458.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="1080.8" y1="230.0" x2="1084.3" y2="470.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="1079.5,459.0 1084.3,470.0 1088.8,458.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="720.0" y1="252.0" x2="720.0" y2="516.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<line x1="720.0" y1="516.0" x2="985.0" y2="516.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="973.9,520.7 985.0,516.0 973.9,511.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<rect x="40.0" y="120.0" width="230.0" height="128.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="40.0" y="120.0" width="230.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="155.0" y="139.0" font-size="12" text-anchor="middle">«entity» accounts</text>
-<text x="155.0" y="157.0" font-size="14" text-anchor="middle" font-weight="bold">Account</text>
-<text x="50.0" y="184.0" font-size="13" text-anchor="start">+ id: string</text>
-<text x="50.0" y="202.0" font-size="13" text-anchor="start">+ name: string</text>
-<text x="50.0" y="220.0" font-size="13" text-anchor="start">+ type: AccountType</text>
-<text x="50.0" y="238.0" font-size="13" text-anchor="start">+ balance: number</text>
-<rect x="470.0" y="70.0" width="290.0" height="182.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="470.0" y="70.0" width="290.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="615.0" y="89.0" font-size="12" text-anchor="middle">«entity» transactions</text>
-<text x="615.0" y="107.0" font-size="14" text-anchor="middle" font-weight="bold">Transaction</text>
-<text x="480.0" y="134.0" font-size="13" text-anchor="start">+ id: string</text>
-<text x="480.0" y="152.0" font-size="13" text-anchor="start">+ type: TransactionType</text>
-<text x="480.0" y="170.0" font-size="13" text-anchor="start">+ amount: number</text>
-<text x="480.0" y="188.0" font-size="13" text-anchor="start">+ date: string  (РРРР-ММ-ДД)</text>
-<text x="480.0" y="206.0" font-size="13" text-anchor="start">+ accountId: string</text>
-<text x="480.0" y="224.0" font-size="13" text-anchor="start">+ categoryId: string</text>
-<text x="480.0" y="242.0" font-size="13" text-anchor="start">+ comment: string</text>
-<rect x="960.0" y="120.0" width="240.0" height="110.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="960.0" y="120.0" width="240.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="1080.0" y="139.0" font-size="12" text-anchor="middle">«entity» categories</text>
-<text x="1080.0" y="157.0" font-size="14" text-anchor="middle" font-weight="bold">Category</text>
-<text x="970.0" y="184.0" font-size="13" text-anchor="start">+ id: string</text>
-<text x="970.0" y="202.0" font-size="13" text-anchor="start">+ name: string</text>
-<text x="970.0" y="220.0" font-size="13" text-anchor="start">+ type: TransactionType</text>
-<rect x="55.0" y="470.0" width="200.0" height="110.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="55.0" y="470.0" width="200.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="155.0" y="489.0" font-size="12" text-anchor="middle">«enumeration»</text>
-<text x="155.0" y="507.0" font-size="14" text-anchor="middle" font-weight="bold">AccountType</text>
-<text x="65.0" y="534.0" font-size="13" text-anchor="start">cash</text>
-<text x="65.0" y="552.0" font-size="13" text-anchor="start">card</text>
-<text x="65.0" y="570.0" font-size="13" text-anchor="start">savings</text>
-<rect x="985.0" y="470.0" width="200.0" height="92.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="985.0" y="470.0" width="200.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="1085.0" y="489.0" font-size="12" text-anchor="middle">«enumeration»</text>
-<text x="1085.0" y="507.0" font-size="14" text-anchor="middle" font-weight="bold">TransactionType</text>
-<text x="995.0" y="534.0" font-size="13" text-anchor="start">income</text>
-<text x="995.0" y="552.0" font-size="13" text-anchor="start">expense</text>
-<polygon points="300.0,440.0 683.8,440.0 695.8,452.0 695.8,564.0 300.0,564.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<polyline points="683.8,440.0 683.8,452.0 695.8,452.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<text x="310.0" y="461.0" font-size="13" text-anchor="start">{ amount &gt; 0 і amount ≤ 1 000 000 }</text>
-<text x="310.0" y="479.0" font-size="13" text-anchor="start">{ date: реальна дата, 2000-01-01 ≤ date ≤ сьогодні }</text>
-<text x="310.0" y="497.0" font-size="13" text-anchor="start">{ category.type = type }</text>
-<text x="310.0" y="515.0" font-size="13" text-anchor="start">{ comment.length ≤ 100 }</text>
-<text x="310.0" y="533.0" font-size="13" text-anchor="start">Головне правило:</text>
-<text x="310.0" y="551.0" font-size="13" text-anchor="start">{ type = expense ⇒ amount ≤ account.balance }</text>
-<line x1="438.5" y1="440.0" x2="575.0" y2="252.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polygon points="40.0,22.0 300.5,22.0 312.5,34.0 312.5,74.0 40.0,74.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<polyline points="300.5,22.0 300.5,34.0 312.5,34.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<text x="50.0" y="43.0" font-size="13" text-anchor="start">{ 0 ≤ balance ≤ 10 000 000 }</text>
-<text x="50.0" y="61.0" font-size="13" text-anchor="start">{ name: 2–40 символів, унікальна }</text>
-<line x1="100.0" y1="74.0" x2="100.0" y2="120.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polygon points="975.0,22.0 1176.0,22.0 1188.0,34.0 1188.0,74.0 975.0,74.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<polyline points="1176.0,22.0 1176.0,34.0 1188.0,34.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<text x="985.0" y="43.0" font-size="13" text-anchor="start">{ name: 2–30 символів,</text>
-<text x="985.0" y="61.0" font-size="13" text-anchor="start">  унікальна в межах type }</text>
-<line x1="1055.0" y1="74.0" x2="1040.0" y2="120.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<text x="620.0" y="626.0" font-size="13" text-anchor="middle" font-style="italic">Модель даних: колекції db.json, які обслуговує JSON Server; суми — у гривнях, id — рядки</text>
-<rect x="306.9" y="167.0" width="126.2" height="18.0" fill="#fff"/>
-<text x="370.0" y="180.3" font-size="12" text-anchor="middle">належить рахунку</text>
-<text x="288.0" y="182.0" font-size="13" text-anchor="middle">1</text>
-<text x="452.0" y="206.0" font-size="13" text-anchor="middle">0..*</text>
-<rect x="820.4" y="167.0" width="79.2" height="18.0" fill="#fff"/>
-<text x="860.0" y="180.3" font-size="12" text-anchor="middle">класифікує</text>
-<text x="942.0" y="206.0" font-size="13" text-anchor="middle">1</text>
-<text x="778.0" y="182.0" font-size="13" text-anchor="middle">0..*</text>
+<line x1="290.0" y1="230.0" x2="480.0" y2="230.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1030.0" y1="230.0" x2="780.0" y2="230.0" stroke="#000" stroke-width="1.3"/>
+<line x1="290.0" y1="302.0" x2="400.0" y2="302.0" stroke="#000" stroke-width="1.3"/>
+<line x1="400.0" y1="302.0" x2="400.0" y2="560.0" stroke="#000" stroke-width="1.3"/>
+<line x1="400.0" y1="560.0" x2="480.0" y2="560.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1055.0" y1="280.0" x2="1055.0" y2="560.0" stroke="#000" stroke-width="1.3"/>
+<line x1="1055.0" y1="560.0" x2="780.0" y2="560.0" stroke="#000" stroke-width="1.3"/>
+<line x1="630.0" y1="240.0" x2="630.0" y2="470.0" stroke="#000" stroke-width="1.3"/>
+<line x1="165.0" y1="316.0" x2="165.0" y2="470.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="160.3,458.9 165.0,470.0 169.7,458.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1165.2" y1="280.0" x2="1176.4" y2="340.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="1169.8,330.0 1176.4,340.0 1179.0,328.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="780.0" y1="620.0" x2="1090.0" y2="620.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="1078.9,624.7 1090.0,620.0 1078.9,615.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect x="40.0" y="170.0" width="250.0" height="146.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="40.0" y="170.0" width="250.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="165.0" y="189.0" font-size="12" text-anchor="middle">«entity» accounts</text>
+<text x="165.0" y="207.0" font-size="14" text-anchor="middle" font-weight="bold">Account</text>
+<text x="50.0" y="234.0" font-size="13" text-anchor="start">+ id: string</text>
+<text x="50.0" y="252.0" font-size="13" text-anchor="start">+ name: string</text>
+<text x="50.0" y="270.0" font-size="13" text-anchor="start">+ type: AccountType</text>
+<text x="50.0" y="288.0" font-size="13" text-anchor="start">+ balance: number</text>
+<text x="50.0" y="306.0" font-size="13" text-anchor="start">+ openForRequests: boolean</text>
+<rect x="480.0" y="40.0" width="300.0" height="200.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="480.0" y="40.0" width="300.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="630.0" y="59.0" font-size="12" text-anchor="middle">«entity» transactions</text>
+<text x="630.0" y="77.0" font-size="14" text-anchor="middle" font-weight="bold">Transaction</text>
+<text x="490.0" y="104.0" font-size="13" text-anchor="start">+ id: string</text>
+<text x="490.0" y="122.0" font-size="13" text-anchor="start">+ type: TransactionType</text>
+<text x="490.0" y="140.0" font-size="13" text-anchor="start">+ amount: number</text>
+<text x="490.0" y="158.0" font-size="13" text-anchor="start">+ date: string  (РРРР-ММ-ДД)</text>
+<text x="490.0" y="176.0" font-size="13" text-anchor="start">+ accountId: string</text>
+<text x="490.0" y="194.0" font-size="13" text-anchor="start">+ categoryId: string</text>
+<text x="490.0" y="212.0" font-size="13" text-anchor="start">+ comment: string</text>
+<text x="490.0" y="230.0" font-size="13" text-anchor="start">+ requestId: string [0..1]</text>
+<rect x="1030.0" y="170.0" width="250.0" height="110.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="1030.0" y="170.0" width="250.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1155.0" y="189.0" font-size="12" text-anchor="middle">«entity» categories</text>
+<text x="1155.0" y="207.0" font-size="14" text-anchor="middle" font-weight="bold">Category</text>
+<text x="1040.0" y="234.0" font-size="13" text-anchor="start">+ id: string</text>
+<text x="1040.0" y="252.0" font-size="13" text-anchor="start">+ name: string</text>
+<text x="1040.0" y="270.0" font-size="13" text-anchor="start">+ type: TransactionType</text>
+<rect x="480.0" y="470.0" width="300.0" height="254.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="480.0" y="470.0" width="300.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="630.0" y="489.0" font-size="12" text-anchor="middle">«entity» requests</text>
+<text x="630.0" y="507.0" font-size="14" text-anchor="middle" font-weight="bold">ExpenseRequest</text>
+<text x="490.0" y="534.0" font-size="13" text-anchor="start">+ id: string</text>
+<text x="490.0" y="552.0" font-size="13" text-anchor="start">+ requesterName: string</text>
+<text x="490.0" y="570.0" font-size="13" text-anchor="start">+ accountId: string</text>
+<text x="490.0" y="588.0" font-size="13" text-anchor="start">+ categoryId: string</text>
+<text x="490.0" y="606.0" font-size="13" text-anchor="start">+ amount: number</text>
+<text x="490.0" y="624.0" font-size="13" text-anchor="start">+ purpose: string</text>
+<text x="490.0" y="642.0" font-size="13" text-anchor="start">+ status: RequestStatus</text>
+<text x="490.0" y="660.0" font-size="13" text-anchor="start">+ createdAt: string</text>
+<text x="490.0" y="678.0" font-size="13" text-anchor="start">+ updatedAt: string</text>
+<text x="490.0" y="696.0" font-size="13" text-anchor="start">+ adminComment: string</text>
+<text x="490.0" y="714.0" font-size="13" text-anchor="start">+ transactionId: string [0..1]</text>
+<rect x="70.0" y="470.0" width="190.0" height="110.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="70.0" y="470.0" width="190.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="165.0" y="489.0" font-size="12" text-anchor="middle">«enumeration»</text>
+<text x="165.0" y="507.0" font-size="14" text-anchor="middle" font-weight="bold">AccountType</text>
+<text x="80.0" y="534.0" font-size="13" text-anchor="start">cash</text>
+<text x="80.0" y="552.0" font-size="13" text-anchor="start">card</text>
+<text x="80.0" y="570.0" font-size="13" text-anchor="start">savings</text>
+<rect x="1090.0" y="340.0" width="190.0" height="92.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="1090.0" y="340.0" width="190.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1185.0" y="359.0" font-size="12" text-anchor="middle">«enumeration»</text>
+<text x="1185.0" y="377.0" font-size="14" text-anchor="middle" font-weight="bold">TransactionType</text>
+<text x="1100.0" y="404.0" font-size="13" text-anchor="start">income</text>
+<text x="1100.0" y="422.0" font-size="13" text-anchor="start">expense</text>
+<rect x="1090.0" y="560.0" width="190.0" height="128.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="1090.0" y="560.0" width="190.0" height="46.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1185.0" y="579.0" font-size="12" text-anchor="middle">«enumeration»</text>
+<text x="1185.0" y="597.0" font-size="14" text-anchor="middle" font-weight="bold">RequestStatus</text>
+<text x="1100.0" y="624.0" font-size="13" text-anchor="start">new</text>
+<text x="1100.0" y="642.0" font-size="13" text-anchor="start">approved</text>
+<text x="1100.0" y="660.0" font-size="13" text-anchor="start">rejected</text>
+<text x="1100.0" y="678.0" font-size="13" text-anchor="start">cancelled</text>
+<polygon points="40.0,30.0 282.0,30.0 294.0,42.0 294.0,80.0 40.0,80.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="282.0,30.0 282.0,42.0 294.0,42.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="50.0" y="50.0" font-size="12" text-anchor="start">{ 0 ≤ balance ≤ 10 000 000 }</text>
+<text x="50.0" y="67.0" font-size="12" text-anchor="start">{ name: 2–40 символів, унікальна }</text>
+<polygon points="1030.0,40.0 1217.0,40.0 1229.0,52.0 1229.0,90.0 1030.0,90.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="1217.0,40.0 1217.0,52.0 1229.0,52.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="1040.0" y="60.0" font-size="12" text-anchor="start">{ name: 2–30 символів,</text>
+<text x="1040.0" y="77.0" font-size="12" text-anchor="start">  унікальна в межах type }</text>
+<polygon points="40.0,650.0 299.3,650.0 311.3,662.0 311.3,768.0 40.0,768.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="299.3,650.0 299.3,662.0 311.3,662.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="50.0" y="670.0" font-size="12" text-anchor="start">{ amount ≤ account.balance —</text>
+<text x="50.0" y="687.0" font-size="12" text-anchor="start">  при поданні та при схваленні }</text>
+<text x="50.0" y="704.0" font-size="12" text-anchor="start">{ account.openForRequests = true }</text>
+<text x="50.0" y="721.0" font-size="12" text-anchor="start">{ category.type = expense }</text>
+<text x="50.0" y="738.0" font-size="12" text-anchor="start">{ purpose: 3–100 символів }</text>
+<text x="50.0" y="755.0" font-size="12" text-anchor="start">{ transactionId є ⇔ status = approved }</text>
+<line x1="311.3" y1="690.0" x2="480.0" y2="690.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<text x="660.0" y="814.0" font-size="13" text-anchor="middle" font-style="italic">Модель даних: колекції db.json (JSON Server 0.17.4); суми — у гривнях, id — рядки; [0..1] — поле може бути відсутнім</text>
+<rect x="321.9" y="207.0" width="126.2" height="18.0" fill="#fff"/>
+<text x="385.0" y="220.3" font-size="12" text-anchor="middle">належить рахунку</text>
+<text x="308.0" y="222.0" font-size="13" text-anchor="middle">1</text>
+<text x="462.0" y="246.0" font-size="13" text-anchor="middle">0..*</text>
+<rect x="865.4" y="207.0" width="79.2" height="18.0" fill="#fff"/>
+<text x="905.0" y="220.3" font-size="12" text-anchor="middle">класифікує</text>
+<text x="1012.0" y="246.0" font-size="13" text-anchor="middle">1</text>
+<text x="798.0" y="222.0" font-size="13" text-anchor="middle">0..*</text>
+<rect x="365.2" y="460.8" width="69.6" height="18.0" fill="#fff"/>
+<text x="400.0" y="474.1" font-size="12" text-anchor="middle">з рахунку</text>
+<text x="308.0" y="294.0" font-size="13" text-anchor="middle">1</text>
+<text x="462.0" y="576.0" font-size="13" text-anchor="middle">0..*</text>
+<rect x="870.8" y="551.0" width="95.8" height="18.0" fill="#fff"/>
+<text x="918.8" y="564.3" font-size="12" text-anchor="middle">за категорією</text>
+<text x="1067.0" y="302.0" font-size="13" text-anchor="middle">1</text>
+<text x="798.0" y="552.0" font-size="13" text-anchor="middle">0..*</text>
+<rect x="526.9" y="346.0" width="206.3" height="18.0" fill="#fff"/>
+<text x="630.0" y="359.3" font-size="12" text-anchor="middle">створюється під час схвалення</text>
+<text x="642.0" y="262.0" font-size="13" text-anchor="middle">0..1</text>
+<text x="618.0" y="456.0" font-size="13" text-anchor="middle">0..1</text>
 </svg>

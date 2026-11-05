@@ -1,169 +1,180 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1172" height="963" viewBox="0 0 1172 963" font-family="DejaVu Sans, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1513" height="994" viewBox="0 0 1513 994" font-family="DejaVu Sans, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo5YWRkNjRjOS00Yzg4LTQxNTgtODUzYS0yN2NmZTcwNjYyZWIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaM5sOPIza+4bmEawK6Ko5moAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDphNzhlN2RlOC0wYzlmLTRiNGQtYTdjYy01NjhmN2FiYmVmNmRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoTDu9T39y8Of+HWcE3BAKlgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggTJMY6f5Srr6KF7tW7PtLyKimsS5X/wJk2F3uyRDHdI6kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaIdN+Tgg/DyX9snXI5jVobMAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDgiJ2pslH1W5imJIHrRar4pFAXGKNRmx4prnGhlSHjgWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjFZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjlhZGQ2NGM5LTRjODgtNDE1OC04NTNhLTI3Y2ZlNzA2NjJlYi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjYxYjI1YjI4LTY4NmUtNGQyOC1hNDA3LWIwMzI4ZjJmMzFiOHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBMkxjp/lKuvooXu1bs+0vIqKaxLlf/AmTYXe7JEMd0jqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggaowCn/Goq6lw76BbxNPgRmOEwyu1vD00i7CX/81kLvaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg3l0XUqFSJWSwwz0bhNji2jN6QZ92nzSwWmJZ8bhl1P10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJ6XWyuIL7YXhy4eNJTBsqHlpme37WPTstzm6XZQDK5t1M6bRK51HjWpuqYxjvZ0JcrauR4FzEPpWC5XkDjagB4=</c2pa:manifest></metadata>
 <rect width="100%" height="100%" fill="#fff"/>
-<polygon points="198.0,89.6 201.4,74.0 187.1,81.1" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<line x1="162.4" y1="124.0" x2="192.6" y2="85.4" stroke="#000" stroke-width="1.3"/>
-<polygon points="253.8,79.9 238.9,74.0 243.5,89.3" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<line x1="285.0" y1="124.0" x2="248.7" y2="84.6" stroke="#000" stroke-width="1.3"/>
-<line x1="497.2" y1="192.0" x2="145.2" y2="192.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<line x1="145.2" y1="192.0" x2="145.2" y2="168.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="149.9,179.1 145.2,168.0 140.5,179.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="497.2" y1="146.0" x2="363.7" y2="146.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="374.7,141.3 363.7,146.0 374.7,150.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="776.1" y1="130.0" x2="893.4" y2="130.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="882.3,134.7 893.4,130.0 882.3,125.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="636.7" y1="308.5" x2="636.7" y2="230.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="641.3,241.1 636.7,230.0 632.0,241.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="526.3" y1="395.0" x2="407.2" y2="395.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="418.2,390.3 407.2,395.0 418.2,399.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="747.0" y1="395.0" x2="893.7" y2="395.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="882.7,399.7 893.7,395.0 882.7,390.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="636.7" y1="481.5" x2="636.7" y2="560.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="632.0,548.9 636.7,560.0 641.3,548.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="368.5" y1="300.0" x2="497.2" y2="218.4" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="490.4,228.3 497.2,218.4 485.4,220.4" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="218.6" y1="560.0" x2="218.6" y2="490.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="223.3,501.1 218.6,490.0 213.9,501.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="338.0" y1="560.0" x2="526.3" y2="456.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="518.9,465.4 526.3,456.0 514.4,457.2" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="366.1" y1="654.2" x2="503.2" y2="680.5" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="491.5,683.0 503.2,680.5 493.2,673.8" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="740.1" y1="560.0" x2="933.7" y2="481.5" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="925.2,490.0 933.7,481.5 921.7,481.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<line x1="770.1" y1="710.0" x2="866.1" y2="710.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
-<polyline points="855.1,714.7 866.1,710.0 855.1,705.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<rect x="497.2" y="30.0" width="279.0" height="200.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="497.2" y="30.0" width="279.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="636.7" y="48.0" font-size="11" text-anchor="middle">«module» 2. API</text>
-<text x="636.7" y="65.0" font-size="13" text-anchor="middle" font-weight="bold">api</text>
-<text x="507.2" y="91.0" font-size="12" text-anchor="start">- SERVER_URL = "http://localhost:5000"</text>
-<line x1="497.2" y1="101.0" x2="776.1" y2="101.0" stroke="#000" stroke-width="1.3"/>
-<text x="507.2" y="118.0" font-size="12" text-anchor="start">- request(path, options): Promise&lt;object&gt;</text>
-<text x="507.2" y="135.0" font-size="12" text-anchor="start">+ getAll(collection)</text>
-<text x="507.2" y="152.0" font-size="12" text-anchor="start">+ findBy(collection, field, value)</text>
-<text x="507.2" y="169.0" font-size="12" text-anchor="start">+ getOne(collection, id)</text>
-<text x="507.2" y="186.0" font-size="12" text-anchor="start">+ create(collection, data)</text>
-<text x="507.2" y="203.0" font-size="12" text-anchor="start">+ update(collection, id, data)</text>
-<text x="507.2" y="220.0" font-size="12" text-anchor="start">+ remove(collection, id)</text>
-<rect x="893.4" y="47.0" width="222.0" height="166.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="893.4" y="47.0" width="222.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="1004.4" y="65.0" font-size="11" text-anchor="middle">«external system»</text>
-<text x="1004.4" y="82.0" font-size="13" text-anchor="middle" font-weight="bold">JSON Server 0.17.4</text>
-<text x="903.4" y="108.0" font-size="12" text-anchor="start">port: 5000</text>
-<text x="903.4" y="125.0" font-size="12" text-anchor="start">file: db.json</text>
-<line x1="893.4" y1="135.0" x2="1115.4" y2="135.0" stroke="#000" stroke-width="1.3"/>
-<text x="903.4" y="152.0" font-size="12" text-anchor="start">GET /колекція, GET /колекція/id</text>
-<text x="903.4" y="169.0" font-size="12" text-anchor="start">POST /колекція</text>
-<text x="903.4" y="186.0" font-size="12" text-anchor="start">PATCH /колекція/id</text>
-<text x="903.4" y="203.0" font-size="12" text-anchor="start">DELETE /колекція/id</text>
-<rect x="148.6" y="30.0" width="140.0" height="44.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="148.6" y="30.0" width="140.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="218.6" y="48.0" font-size="11" text-anchor="middle">«JavaScript»</text>
-<text x="218.6" y="65.0" font-size="13" text-anchor="middle" font-weight="bold">Error</text>
-<rect x="73.5" y="124.0" width="143.4" height="44.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="73.5" y="124.0" width="143.4" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="145.2" y="142.0" font-size="11" text-anchor="middle">«exception»</text>
-<text x="145.2" y="159.0" font-size="13" text-anchor="middle" font-weight="bold">ConnectionError</text>
-<rect x="246.9" y="124.0" width="116.8" height="44.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="246.9" y="124.0" width="116.8" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="305.3" y="142.0" font-size="11" text-anchor="middle">«exception»</text>
-<text x="305.3" y="159.0" font-size="13" text-anchor="middle" font-weight="bold">DomainError</text>
-<rect x="30.0" y="300.0" width="377.2" height="190.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="30.0" y="300.0" width="377.2" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="218.6" y="318.0" font-size="11" text-anchor="middle">«module» 4</text>
-<text x="218.6" y="335.0" font-size="13" text-anchor="middle" font-weight="bold">Правила предметної області</text>
-<text x="40.0" y="361.0" font-size="12" text-anchor="start">+ validateAccount(input, editingId): string[]</text>
-<text x="40.0" y="378.0" font-size="12" text-anchor="start">+ validateCategory(input, editingId): string[]</text>
-<text x="40.0" y="395.0" font-size="12" text-anchor="start">+ validateTransaction(input): string[]</text>
-<text x="40.0" y="412.0" font-size="12" text-anchor="start">+ validateFunds(account, type, amountCents): string | null</text>
-<text x="40.0" y="429.0" font-size="12" text-anchor="start">+ balanceEffectCents(transaction): number</text>
-<text x="40.0" y="446.0" font-size="12" text-anchor="start">+ calcBalanceDeltas(oldT, newT): object</text>
-<text x="40.0" y="463.0" font-size="12" text-anchor="start">+ prepareBalanceUpdates(deltas, describeProblem)</text>
-<text x="40.0" y="480.0" font-size="12" text-anchor="start">+ countLinkedTransactions(field, id): number</text>
-<rect x="526.3" y="308.5" width="220.7" height="173.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="526.3" y="308.5" width="220.7" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="636.7" y="326.5" font-size="11" text-anchor="middle">«module» 5</text>
-<text x="636.7" y="343.5" font-size="13" text-anchor="middle" font-weight="bold">Операції з даними</text>
-<text x="536.3" y="369.5" font-size="12" text-anchor="start">+ conductTransaction(data)</text>
-<text x="536.3" y="386.5" font-size="12" text-anchor="start">+ editTransaction(id, data)</text>
-<text x="536.3" y="403.5" font-size="12" text-anchor="start">+ deleteTransaction(id)</text>
-<text x="536.3" y="420.5" font-size="12" text-anchor="start">- applyBalanceUpdates(updates)</text>
-<text x="536.3" y="437.5" font-size="12" text-anchor="start">- rollbackBalances(accounts)</text>
-<text x="536.3" y="454.5" font-size="12" text-anchor="start">+ loadAll()</text>
-<text x="536.3" y="471.5" font-size="12" text-anchor="start">- resetMissingEditing()</text>
-<rect x="893.7" y="308.5" width="221.3" height="173.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="893.7" y="308.5" width="221.3" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="1004.4" y="326.5" font-size="11" text-anchor="middle">«object» 1. Стан</text>
-<text x="1004.4" y="343.5" font-size="13" text-anchor="middle" font-weight="bold">state</text>
-<text x="903.7" y="369.5" font-size="12" text-anchor="start">accounts: Account[]</text>
-<text x="903.7" y="386.5" font-size="12" text-anchor="start">categories: Category[]</text>
-<text x="903.7" y="403.5" font-size="12" text-anchor="start">transactions: Transaction[]</text>
-<text x="903.7" y="420.5" font-size="12" text-anchor="start">loaded: boolean</text>
-<text x="903.7" y="437.5" font-size="12" text-anchor="start">editingAccountId: string | null</text>
-<text x="903.7" y="454.5" font-size="12" text-anchor="start">editingCategoryId: string | null</text>
-<text x="903.7" y="471.5" font-size="12" text-anchor="start">editingTransactionId: string | null</text>
-<rect x="503.2" y="560.0" width="267.0" height="292.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="503.2" y="560.0" width="267.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="636.7" y="578.0" font-size="11" text-anchor="middle">«module» 6</text>
-<text x="636.7" y="595.0" font-size="13" text-anchor="middle" font-weight="bold">Рендер</text>
-<text x="513.2" y="621.0" font-size="12" text-anchor="start">+ renderAll()</text>
-<text x="513.2" y="638.0" font-size="12" text-anchor="start">+ renderAccounts()</text>
-<text x="513.2" y="655.0" font-size="12" text-anchor="start">+ renderCategories()</text>
-<text x="513.2" y="672.0" font-size="12" text-anchor="start">+ renderSelectOptions()</text>
-<text x="513.2" y="689.0" font-size="12" text-anchor="start">+ renderTransactionCategoryOptions()</text>
-<text x="513.2" y="706.0" font-size="12" text-anchor="start">+ getVisibleTransactions(): Transaction[]</text>
-<text x="513.2" y="723.0" font-size="12" text-anchor="start">+ renderTransactions()</text>
-<text x="513.2" y="740.0" font-size="12" text-anchor="start">- emptyText(normalText): string</text>
-<text x="513.2" y="757.0" font-size="12" text-anchor="start">- fillSelect(select, optionsHtml)</text>
-<text x="513.2" y="774.0" font-size="12" text-anchor="start">- categoryOptions(categories): string</text>
-<text x="513.2" y="791.0" font-size="12" text-anchor="start">+ resetAccountForm()</text>
-<text x="513.2" y="808.0" font-size="12" text-anchor="start">+ resetCategoryForm()</text>
-<text x="513.2" y="825.0" font-size="12" text-anchor="start">+ resetTransactionForm()</text>
-<text x="513.2" y="842.0" font-size="12" text-anchor="start">+ getSelectedTransactionType(): string</text>
-<rect x="71.1" y="560.0" width="294.9" height="132.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="71.1" y="560.0" width="294.9" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="218.6" y="578.0" font-size="11" text-anchor="middle">«module» 7</text>
-<text x="218.6" y="595.0" font-size="13" text-anchor="middle" font-weight="bold">Обробники подій</text>
-<text x="81.1" y="621.0" font-size="12" text-anchor="start">submit: форми рахунку, категорії, операції</text>
-<text x="81.1" y="638.0" font-size="12" text-anchor="start">click: Редагувати / Видалити / Скасувати</text>
-<text x="81.1" y="655.0" font-size="12" text-anchor="start">input: пошук, фільтри, сортування</text>
-<line x1="71.1" y1="665.0" x2="366.1" y2="665.0" stroke="#000" stroke-width="1.3"/>
-<text x="81.1" y="682.0" font-size="12" text-anchor="start">+ onCategoryListClick(event)</text>
-<rect x="866.1" y="560.0" width="276.4" height="343.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<rect x="866.1" y="560.0" width="276.4" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
-<text x="1004.4" y="578.0" font-size="11" text-anchor="middle">«module» 3</text>
-<text x="1004.4" y="595.0" font-size="13" text-anchor="middle" font-weight="bold">Допоміжні функції</text>
-<text x="876.1" y="621.0" font-size="12" text-anchor="start">+ toCents(amount): number</text>
-<text x="876.1" y="638.0" font-size="12" text-anchor="start">+ fromCents(cents): number</text>
-<text x="876.1" y="655.0" font-size="12" text-anchor="start">+ formatMoney(amount): string</text>
-<text x="876.1" y="672.0" font-size="12" text-anchor="start">+ formatDate(isoDate): string</text>
-<text x="876.1" y="689.0" font-size="12" text-anchor="start">+ todayISO(): string</text>
-<text x="876.1" y="706.0" font-size="12" text-anchor="start">+ isValidISODate(text): boolean</text>
-<text x="876.1" y="723.0" font-size="12" text-anchor="start">+ parseAmount(rawText): object</text>
-<text x="876.1" y="740.0" font-size="12" text-anchor="start">+ escapeHtml(text): string</text>
-<text x="876.1" y="757.0" font-size="12" text-anchor="start">+ normalizeName(text): string</text>
-<text x="876.1" y="774.0" font-size="12" text-anchor="start">+ findById(collection, id)</text>
-<text x="876.1" y="791.0" font-size="12" text-anchor="start">+ countWord(n): string</text>
-<text x="876.1" y="808.0" font-size="12" text-anchor="start">+ showFormMessage(element, text, type)</text>
-<text x="876.1" y="825.0" font-size="12" text-anchor="start">+ clearFormMessage(element)</text>
-<text x="876.1" y="842.0" font-size="12" text-anchor="start">+ showGlobalMessage(text)</text>
-<text x="876.1" y="859.0" font-size="12" text-anchor="start">+ clearGlobalMessage()</text>
-<text x="876.1" y="876.0" font-size="12" text-anchor="start">+ handleError(error, messageElement)</text>
-<text x="876.1" y="893.0" font-size="12" text-anchor="start">+ setBusy(form, isBusy)</text>
-<polygon points="40.0,732.0 352.6,732.0 364.6,744.0 364.6,884.0 40.0,884.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
-<polyline points="352.6,732.0 352.6,744.0 364.6,744.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
-<text x="50.0" y="752.0" font-size="12" text-anchor="start">Номери у стереотипах — розділи app.js.</text>
-<text x="50.0" y="769.0" font-size="12" text-anchor="start">Не показано, щоб не перевантажувати схему:</text>
-<text x="50.0" y="786.0" font-size="12" text-anchor="start">– Допоміжні функції (3) використовують</text>
-<text x="50.0" y="803.0" font-size="12" text-anchor="start">   усі модулі;</text>
-<text x="50.0" y="820.0" font-size="12" text-anchor="start">– Правила й Обробники також читають state;</text>
-<text x="50.0" y="837.0" font-size="12" text-anchor="start">– DomainError кидають також Правила</text>
-<text x="50.0" y="854.0" font-size="12" text-anchor="start">   (prepareBalanceUpdates) та Операції</text>
-<text x="50.0" y="871.0" font-size="12" text-anchor="start">   (conductTransaction).</text>
-<text x="586.0" y="941.0" font-size="13" text-anchor="middle" font-style="italic">Структура app.js: розділи коду (модулі) та залежності між ними</text>
-<rect x="356.1" y="183.0" width="56.6" height="18.0" fill="#fff"/>
-<text x="384.4" y="196.3" font-size="12" text-anchor="middle">«throw»</text>
-<rect x="402.1" y="137.0" width="56.6" height="18.0" fill="#fff"/>
-<text x="430.4" y="150.3" font-size="12" text-anchor="middle">«throw»</text>
-<rect x="793.5" y="109.0" width="82.4" height="18.0" fill="#fff"/>
-<text x="834.7" y="122.3" font-size="12" text-anchor="middle">HTTP (fetch)</text>
+<line x1="165.4" y1="169.0" x2="487.2" y2="276.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="475.3,276.9 487.2,276.0 478.2,268.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="482.3" y1="186.0" x2="743.4" y2="276.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="731.4,276.8 743.4,276.0 734.5,268.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="105.4" y1="169.0" x2="193.6" y2="316.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="183.9,308.9 193.6,316.0 191.9,304.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="623.8" y1="95.5" x2="663.8" y2="95.5" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="652.8,100.2 663.8,95.5 652.8,90.8" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="427.2" y1="459.0" x2="357.2" y2="459.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="368.3,454.3 357.2,459.0 368.3,463.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="625.3" y1="527.0" x2="625.3" y2="607.0" stroke="#000" stroke-width="1.3"/>
+<line x1="511.4" y1="647.0" x2="253.9" y2="647.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="264.9,642.3 253.9,647.0 264.9,651.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="823.4" y1="346.0" x2="913.4" y2="346.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="902.3,350.7 913.4,346.0 902.3,341.3" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<line x1="1012.9" y1="479.0" x2="1012.9" y2="549.0" stroke="#000" stroke-width="1.3"/>
+<polygon points="958.7,763.6 965.3,749.0 949.8,752.9" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<line x1="881.0" y1="819.0" x2="954.2" y2="758.2" stroke="#000" stroke-width="1.3"/>
+<polygon points="1075.6,763.4 1068.6,749.0 1061.6,763.4" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<line x1="1068.6" y1="819.0" x2="1068.6" y2="763.4" stroke="#000" stroke-width="1.3"/>
+<polygon points="1086.5,748.1 1070.5,749.0 1081.1,761.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<line x1="1238.6" y1="819.0" x2="1083.8" y2="754.5" stroke="#000" stroke-width="1.3"/>
+<polygon points="1086.0,745.1 1070.5,749.0 1083.2,758.7" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<line x1="1408.6" y1="819.0" x2="1084.6" y2="751.9" stroke="#000" stroke-width="1.3"/>
+<line x1="511.4" y1="736.0" x2="323.9" y2="736.0" stroke="#000" stroke-width="1.3" stroke-dasharray="7 5"/>
+<polyline points="335.0,731.3 323.9,736.0 335.0,740.7" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect x="30.0" y="30.0" width="270.7" height="139.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="30.0" y="30.0" width="270.7" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="165.4" y="48.0" font-size="11" text-anchor="middle">«UI module» client.html</text>
+<text x="165.4" y="65.0" font-size="13" text-anchor="middle" font-weight="bold">client.js</text>
+<text x="40.0" y="91.0" font-size="12" text-anchor="start">+ loadReferenceData()</text>
+<text x="40.0" y="108.0" font-size="12" text-anchor="start">+ loadMyRequests()</text>
+<text x="40.0" y="125.0" font-size="12" text-anchor="start">+ renderAccounts(), renderMyRequests()</text>
+<text x="40.0" y="142.0" font-size="12" text-anchor="start">обробники: submit заявки, «Оновити»,</text>
+<text x="40.0" y="159.0" font-size="12" text-anchor="start">«Скасувати» заявку</text>
+<rect x="340.7" y="30.0" width="283.1" height="156.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="340.7" y="30.0" width="283.1" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="482.3" y="48.0" font-size="11" text-anchor="middle">«UI module» admin.html</text>
+<text x="482.3" y="65.0" font-size="13" text-anchor="middle" font-weight="bold">admin.js</text>
+<text x="350.7" y="91.0" font-size="12" text-anchor="start">+ loadAll(), loadRequests()</text>
+<text x="350.7" y="108.0" font-size="12" text-anchor="start">+ renderRequests(), renderAccounts()</text>
+<text x="350.7" y="125.0" font-size="12" text-anchor="start">+ renderTransactions(), renderCategories()</text>
+<text x="350.7" y="142.0" font-size="12" text-anchor="start">- runAction(container, message, action)</text>
+<text x="350.7" y="159.0" font-size="12" text-anchor="start">обробники: схвалити / відхилити,</text>
+<text x="350.7" y="176.0" font-size="12" text-anchor="start">CRUD рахунків, операцій, категорій</text>
+<rect x="663.8" y="60.0" width="240.6" height="71.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="663.8" y="60.0" width="240.6" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="784.1" y="78.0" font-size="11" text-anchor="middle">«module»</text>
+<text x="784.1" y="95.0" font-size="13" text-anchor="middle" font-weight="bold">config.js</text>
+<text x="673.8" y="121.0" font-size="12" text-anchor="start">+ API_URL = "http://localhost:5000"</text>
+<rect x="30.0" y="316.0" width="327.2" height="173.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="30.0" y="316.0" width="327.2" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="193.6" y="334.0" font-size="11" text-anchor="middle">«module»</text>
+<text x="193.6" y="351.0" font-size="13" text-anchor="middle" font-weight="bold">validation.js</text>
+<text x="40.0" y="377.0" font-size="12" text-anchor="start">+ validateAccount(input, accounts, id)</text>
+<text x="40.0" y="394.0" font-size="12" text-anchor="start">+ validateCategory(input, categories, id, used)</text>
+<text x="40.0" y="411.0" font-size="12" text-anchor="start">+ validateTransaction(input, accounts, categories)</text>
+<text x="40.0" y="428.0" font-size="12" text-anchor="start">+ validateRequest(input, accounts, categories)</text>
+<text x="40.0" y="445.0" font-size="12" text-anchor="start">+ validatePersonName(text)</text>
+<text x="40.0" y="462.0" font-size="12" text-anchor="start">+ validateReason(text)</text>
+<text x="40.0" y="479.0" font-size="12" text-anchor="start">+ checkFunds(account, amount): string | null</text>
+<rect x="427.2" y="276.0" width="396.2" height="251.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="427.2" y="276.0" width="396.2" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="625.3" y="294.0" font-size="11" text-anchor="middle">«Repository» repository.js</text>
+<text x="625.3" y="311.0" font-size="13" text-anchor="middle" font-weight="bold">FinanceRepository</text>
+<text x="437.2" y="337.0" font-size="12" text-anchor="start">- http: HttpClient</text>
+<line x1="427.2" y1="347.0" x2="823.4" y2="347.0" stroke="#000" stroke-width="1.3"/>
+<text x="437.2" y="364.0" font-size="12" text-anchor="start">+ getAccounts(), getCategories(), getTransactions()</text>
+<text x="437.2" y="381.0" font-size="12" text-anchor="start">+ getRequests({ status }), getRequest(id)</text>
+<text x="437.2" y="398.0" font-size="12" text-anchor="start">+ findRequestsByRequester(name)</text>
+<text x="437.2" y="415.0" font-size="12" text-anchor="start">+ createRequest(data)</text>
+<text x="437.2" y="432.0" font-size="12" text-anchor="start">+ updateRequestStatus(id, action, { reason })</text>
+<text x="437.2" y="449.0" font-size="12" text-anchor="start">- approveRequest(request: ExpenseRequest)</text>
+<text x="437.2" y="466.0" font-size="12" text-anchor="start">+ createAccount(), updateAccount(), deleteAccount()</text>
+<text x="437.2" y="483.0" font-size="12" text-anchor="start">+ createCategory(), updateCategory(), deleteCategory()</text>
+<text x="437.2" y="500.0" font-size="12" text-anchor="start">+ conductTransaction(), editTransaction(), deleteTransaction()</text>
+<text x="437.2" y="517.0" font-size="12" text-anchor="start">- prepareBalances(), applyBalances(), rollbackBalances()</text>
+<rect x="511.4" y="607.0" width="227.9" height="149.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="511.4" y="607.0" width="227.9" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="625.3" y="625.0" font-size="11" text-anchor="middle">api.js</text>
+<text x="625.3" y="642.0" font-size="13" text-anchor="middle" font-weight="bold">HttpClient</text>
+<text x="521.4" y="668.0" font-size="12" text-anchor="start">- baseUrl: string</text>
+<text x="521.4" y="685.0" font-size="12" text-anchor="start">- fetchFn: Function</text>
+<line x1="511.4" y1="695.0" x2="739.2" y2="695.0" stroke="#000" stroke-width="1.3"/>
+<text x="521.4" y="712.0" font-size="12" text-anchor="start">+ request(path, options): Promise</text>
+<text x="521.4" y="729.0" font-size="12" text-anchor="start">+ get(path), post(path, body)</text>
+<text x="521.4" y="746.0" font-size="12" text-anchor="start">+ patch(path, body), delete(path)</text>
+<rect x="50.0" y="617.0" width="203.9" height="88.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="50.0" y="617.0" width="203.9" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="151.9" y="635.0" font-size="11" text-anchor="middle">«external system» :5000</text>
+<text x="151.9" y="652.0" font-size="13" text-anchor="middle" font-weight="bold">JSON Server 0.17.4</text>
+<text x="60.0" y="678.0" font-size="12" text-anchor="start">db.json: accounts, categories,</text>
+<text x="60.0" y="695.0" font-size="12" text-anchor="start">transactions, requests</text>
+<rect x="913.4" y="296.0" width="199.0" height="183.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="913.4" y="296.0" width="199.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1012.9" y="314.0" font-size="11" text-anchor="middle">«Context» request-states.js</text>
+<text x="1012.9" y="331.0" font-size="13" text-anchor="middle" font-weight="bold">ExpenseRequest</text>
+<text x="923.4" y="357.0" font-size="12" text-anchor="start">+ data: object</text>
+<text x="923.4" y="374.0" font-size="12" text-anchor="start">- state: RequestState</text>
+<text x="923.4" y="391.0" font-size="12" text-anchor="start">+ changes: object | null</text>
+<line x1="913.4" y1="401.0" x2="1112.4" y2="401.0" stroke="#000" stroke-width="1.3"/>
+<text x="923.4" y="418.0" font-size="12" text-anchor="start">+ approve(): object</text>
+<text x="923.4" y="435.0" font-size="12" text-anchor="start">+ reject(reason): object</text>
+<text x="923.4" y="452.0" font-size="12" text-anchor="start">+ cancel(): object</text>
+<text x="923.4" y="469.0" font-size="12" text-anchor="start">+ changeState(status, extra)</text>
+<rect x="925.3" y="549.0" width="175.2" height="200.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="925.3" y="549.0" width="175.2" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1012.9" y="567.0" font-size="11" text-anchor="middle">«State»</text>
+<text x="1012.9" y="584.0" font-size="13" text-anchor="middle" font-weight="bold" font-style="italic">RequestState</text>
+<text x="935.3" y="610.0" font-size="12" text-anchor="start">+ code: string</text>
+<text x="935.3" y="627.0" font-size="12" text-anchor="start">+ label: string</text>
+<line x1="925.3" y1="637.0" x2="1100.5" y2="637.0" stroke="#000" stroke-width="1.3"/>
+<text x="935.3" y="654.0" font-size="12" text-anchor="start">+ isFinal: boolean</text>
+<text x="935.3" y="671.0" font-size="12" text-anchor="start">+ adminActions: string[]</text>
+<text x="935.3" y="688.0" font-size="12" text-anchor="start">+ clientActions: string[]</text>
+<text x="935.3" y="705.0" font-size="12" text-anchor="start">+ approve(request)</text>
+<text x="935.3" y="722.0" font-size="12" text-anchor="start">+ reject(request, reason)</text>
+<text x="935.3" y="739.0" font-size="12" text-anchor="start">+ cancel(request)</text>
+<rect x="793.4" y="819.0" width="175.2" height="105.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="793.4" y="819.0" width="175.2" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="881.0" y="837.0" font-size="11" text-anchor="middle">«ConcreteState»</text>
+<text x="881.0" y="854.0" font-size="13" text-anchor="middle" font-weight="bold">NewState</text>
+<text x="803.4" y="880.0" font-size="12" text-anchor="start">+ approve(request)</text>
+<text x="803.4" y="897.0" font-size="12" text-anchor="start">+ reject(request, reason)</text>
+<text x="803.4" y="914.0" font-size="12" text-anchor="start">+ cancel(request)</text>
+<rect x="50.0" y="745.0" width="273.9" height="122.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="50.0" y="745.0" width="273.9" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="187.0" y="763.0" font-size="11" text-anchor="middle">«module»</text>
+<text x="187.0" y="780.0" font-size="13" text-anchor="middle" font-weight="bold">errors.js</text>
+<text x="60.0" y="806.0" font-size="12" text-anchor="start">ConnectionError — сервер не відповідає</text>
+<text x="60.0" y="823.0" font-size="12" text-anchor="start">NotFoundError — HTTP 404</text>
+<text x="60.0" y="840.0" font-size="12" text-anchor="start">HttpError — інші коди помилок</text>
+<text x="60.0" y="857.0" font-size="12" text-anchor="start">DomainError — порушено правило</text>
+<rect x="993.6" y="819.0" width="150.0" height="44.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="993.6" y="819.0" width="150.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1068.6" y="837.0" font-size="11" text-anchor="middle">«ConcreteState»</text>
+<text x="1068.6" y="854.0" font-size="13" text-anchor="middle" font-weight="bold">ApprovedState</text>
+<rect x="1163.6" y="819.0" width="150.0" height="44.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="1163.6" y="819.0" width="150.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1238.6" y="837.0" font-size="11" text-anchor="middle">«ConcreteState»</text>
+<text x="1238.6" y="854.0" font-size="13" text-anchor="middle" font-weight="bold">RejectedState</text>
+<rect x="1333.6" y="819.0" width="150.0" height="44.0" rx="0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<rect x="1333.6" y="819.0" width="150.0" height="44.0" rx="0" fill="#ececec" stroke="#000" stroke-width="1.3"/>
+<text x="1408.6" y="837.0" font-size="11" text-anchor="middle">«ConcreteState»</text>
+<text x="1408.6" y="854.0" font-size="13" text-anchor="middle" font-weight="bold">CancelledState</text>
+<polygon points="873.4,151.0 1145.3,151.0 1157.3,163.0 1157.3,252.0 873.4,252.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="1145.3,151.0 1145.3,163.0 1157.3,163.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="883.4" y="171.0" font-size="12" text-anchor="start">Обидві сторінки також викликають</text>
+<text x="883.4" y="188.0" font-size="12" text-anchor="start">getState(status).adminActions /</text>
+<text x="883.4" y="205.0" font-size="12" text-anchor="start">clientActions, щоб показати лише</text>
+<text x="883.4" y="222.0" font-size="12" text-anchor="start">дозволені кнопки. DomainError кидають</text>
+<text x="883.4" y="239.0" font-size="12" text-anchor="start">Repository та RequestState.</text>
+<polygon points="1177.3,151.0 1410.5,151.0 1422.5,163.0 1422.5,235.0 1177.3,235.0" fill="#fff" stroke="#000" stroke-width="1.3"/>
+<polyline points="1410.5,151.0 1410.5,163.0 1422.5,163.0" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="miter"/>
+<text x="1187.3" y="171.0" font-size="12" text-anchor="start">Патерни:</text>
+<text x="1187.3" y="188.0" font-size="12" text-anchor="start">Repository — FinanceRepository</text>
+<text x="1187.3" y="205.0" font-size="12" text-anchor="start">State — ExpenseRequest (Context),</text>
+<text x="1187.3" y="222.0" font-size="12" text-anchor="start">RequestState, *State</text>
+<text x="756.5" y="972.0" font-size="13" text-anchor="middle" font-style="italic">Структура коду: ES-модулі папки js/, учасники патернів Repository і State</text>
+<rect x="304.3" y="213.5" width="43.9" height="18.0" fill="#fff"/>
+<text x="326.3" y="226.8" font-size="12" text-anchor="middle">«use»</text>
+<rect x="590.9" y="222.0" width="43.9" height="18.0" fill="#fff"/>
+<text x="612.8" y="235.3" font-size="12" text-anchor="middle">«use»</text>
+<rect x="353.0" y="438.0" width="78.5" height="18.0" fill="#fff"/>
+<text x="392.2" y="451.3" font-size="12" text-anchor="middle">checkFunds</text>
+<rect x="609.0" y="558.0" width="32.6" height="18.0" fill="#fff"/>
+<text x="625.3" y="571.3" font-size="12" text-anchor="middle">http</text>
+<text x="613.3" y="593.0" font-size="13" text-anchor="middle">1</text>
+<rect x="341.4" y="626.0" width="82.4" height="18.0" fill="#fff"/>
+<text x="382.6" y="639.3" font-size="12" text-anchor="middle">fetch (HTTP)</text>
+<rect x="838.0" y="325.0" width="60.8" height="18.0" fill="#fff"/>
+<text x="868.4" y="338.3" font-size="12" text-anchor="middle">«create»</text>
+<rect x="993.7" y="501.5" width="38.4" height="18.0" fill="#fff"/>
+<text x="1012.9" y="514.8" font-size="12" text-anchor="middle">state</text>
+<text x="1000.9" y="535.0" font-size="13" text-anchor="middle">1</text>
+<rect x="389.3" y="715.0" width="56.6" height="18.0" fill="#fff"/>
+<text x="417.6" y="728.3" font-size="12" text-anchor="middle">«throw»</text>
 </svg>

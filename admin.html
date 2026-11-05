@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Власник бюджету — Сімейний бюджет</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <div>
+        <h1>Сімейний бюджет · Власник бюджету</h1>
+        <p>Заявки, рахунки, операції та категорії</p>
+      </div>
+      <nav class="top-nav" aria-label="Сторінки">
+        <a href="index.html">Головна</a>
+        <a href="client.html">Член родини</a>
+        <a href="admin.html" aria-current="page">Власник бюджету</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="section-nav" aria-label="Розділи сторінки">
+      <a href="#requests-section">Заявки</a>
+      <a href="#accounts-section">Рахунки</a>
+      <a href="#transactions-section">Операції</a>
+      <a href="#categories-section">Категорії</a>
+    </nav>
+
+    <!-- Загальне повідомлення: недоступність сервера -->
+    <div id="global-error" class="global-error" role="alert" hidden></div>
+
+    <!-- ===== Заявки на витрату ===== -->
+    <section class="panel" id="requests-section">
+      <h2>Заявки на витрату</h2>
+      <p class="panel-intro">Схвалення списує суму з рахунку й створює операцію-витрату. Схвалити можна, лише якщо на рахунку достатньо коштів.</p>
+      <div class="toolbar">
+        <label>Показати
+          <select id="requests-status">
+            <option value="new">Нові</option>
+            <option value="">Усі</option>
+            <option value="approved">Схвалені</option>
+            <option value="rejected">Відхилені</option>
+            <option value="cancelled">Скасовані</option>
+          </select>
+        </label>
+        <button type="button" class="btn-primary" id="requests-refresh">Оновити</button>
+      </div>
+      <p class="list-info" id="requests-info"></p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Подано</th>
+              <th>Хто</th>
+              <th>Рахунок</th>
+              <th>Категорія</th>
+              <th>Призначення</th>
+              <th class="amount">Сума</th>
+              <th>Статус</th>
+              <th>Коментар</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="requests-list">
+            <tr><td colspan="9"><div class="state state-loading">Завантаження заявок…</div></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Відхилення заявки: причина обов'язкова -->
+      <form class="reject-panel" id="reject-form" novalidate hidden>
+        <h3 id="reject-title">Відхилення заявки</h3>
+        <label>Причина відхилення (її побачить член родини)
+          <textarea id="reject-reason" maxlength="100" rows="2" placeholder="Напр., Перевищує бюджет місяця"></textarea>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn-danger" id="reject-confirm">Відхилити заявку</button>
+          <button type="button" class="btn-secondary" id="reject-cancel">Скасувати</button>
+        </div>
+      </form>
+      <p class="form-message" id="requests-message" role="status"></p>
+    </section>
+
+    <!-- ===== Рахунки («пропозиції» для членів родини) ===== -->
+    <section class="panel" id="accounts-section">
+      <h2>Рахунки</h2>
+      <p class="panel-intro">Рахунки, позначені «Відкритий для заявок», бачать члени родини на своїй сторінці.</p>
+      <div id="accounts-list" class="accounts-grid">
+        <div class="state state-loading">Завантаження рахунків…</div>
+      </div>
+
+      <h3 id="account-form-title">Новий рахунок</h3>
+      <form id="account-form" novalidate>
+        <div class="form-row">
+          <label>Назва
+            <input id="account-name" type="text" maxlength="40" placeholder="Напр., Готівка">
+          </label>
+          <label>Тип
+            <select id="account-type">
+              <option value="cash">Готівка</option>
+              <option value="card">Картка</option>
+              <option value="savings">Заощадження</option>
+            </select>
+          </label>
+          <label>Початковий баланс, ₴
+            <input id="account-balance" type="text" inputmode="decimal" placeholder="0,00">
+          </label>
+          <label class="checkbox">
+            <input id="account-open" type="checkbox" checked> Відкритий для заявок
+          </label>
+        </div>
+        <span class="hint" id="account-balance-hint" hidden>Баланс змінюється лише через операції та схвалені заявки.</span>
+        <div class="form-actions">
+          <button type="submit" class="btn-primary" id="account-submit">Додати рахунок</button>
+          <button type="button" class="btn-secondary" id="account-cancel" hidden>Скасувати</button>
+        </div>
+        <p class="form-message" id="account-message" role="status"></p>
+      </form>
+    </section>
+
+    <!-- ===== Операції ===== -->
+    <section class="panel" id="transactions-section">
+      <h2>Операції</h2>
+      <p class="panel-intro">Доходи й витрати власника бюджету. Операції, створені за заявками, змінювати не можна.</p>
+      <div class="two-columns">
+        <div class="side-form">
+          <h3 id="transaction-form-title">Нова операція</h3>
+          <form id="transaction-form" novalidate>
+            <div class="type-switch" role="radiogroup" aria-label="Тип операції">
+              <input type="radio" name="transaction-type" id="type-expense" value="expense" checked>
+              <label for="type-expense" class="expense">Витрата</label>
+              <input type="radio" name="transaction-type" id="type-income" value="income">
+              <label for="type-income" class="income">Дохід</label>
+            </div>
+            <label>Сума, ₴
+              <input id="transaction-amount" type="text" inputmode="decimal" placeholder="0,00">
+            </label>
+            <label>Дата
+              <input id="transaction-date" type="date">
+            </label>
+            <label>Рахунок
+              <select id="transaction-account"></select>
+            </label>
+            <label>Категорія
+              <select id="transaction-category"></select>
+            </label>
+            <label>Коментар (необов'язково)
+              <input id="transaction-comment" type="text" maxlength="100" placeholder="Напр., Супермаркет">
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn-primary" id="transaction-submit">Провести операцію</button>
+              <button type="button" class="btn-secondary" id="transaction-cancel" hidden>Скасувати</button>
+            </div>
+            <p class="form-message" id="transaction-message" role="status"></p>
+          </form>
+        </div>
+
+        <div>
+          <div class="filters">
+            <label class="search">Пошук за коментарем або категорією
+              <input id="filter-search" type="search" placeholder="Напр., продукти">
+            </label>
+            <label>Тип
+              <select id="filter-type">
+                <option value="">Усі</option>
+                <option value="income">Доходи</option>
+                <option value="expense">Витрати</option>
+              </select>
+            </label>
+            <label>Рахунок
+              <select id="filter-account"></select>
+            </label>
+            <label>Категорія
+              <select id="filter-category"></select>
+            </label>
+            <label>Дата від
+              <input id="filter-date-from" type="date">
+            </label>
+            <label>Дата до
+              <input id="filter-date-to" type="date">
+            </label>
+            <label class="sort">Сортування
+              <select id="sort-order">
+                <option value="date-desc">Дата: нові спочатку</option>
+                <option value="date-asc">Дата: старі спочатку</option>
+                <option value="amount-desc">Сума: від більшої</option>
+                <option value="amount-asc">Сума: від меншої</option>
+              </select>
+            </label>
+            <button type="button" class="btn-secondary" id="filter-reset">Скинути фільтри</button>
+          </div>
+          <p class="list-info" id="transactions-info"></p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Дата</th>
+                  <th>Тип</th>
+                  <th>Категорія</th>
+                  <th>Рахунок</th>
+                  <th>Коментар</th>
+                  <th class="amount">Сума</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="transactions-list">
+                <tr><td colspan="7"><div class="state state-loading">Завантаження операцій…</div></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="form-message" id="transactions-list-message" role="status"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Категорії ===== -->
+    <section class="panel" id="categories-section">
+      <h2>Категорії</h2>
+      <div class="categories-layout">
+        <div>
+          <h3>Витрати</h3>
+          <ul class="category-list" id="categories-expense"></ul>
+        </div>
+        <div>
+          <h3>Доходи</h3>
+          <ul class="category-list" id="categories-income"></ul>
+        </div>
+        <div class="side-form">
+          <h3 id="category-form-title">Нова категорія</h3>
+          <form id="category-form" novalidate>
+            <label>Назва
+              <input id="category-name" type="text" maxlength="30" placeholder="Напр., Спорт">
+            </label>
+            <label>Тип
+              <select id="category-type">
+                <option value="expense">Витрата</option>
+                <option value="income">Дохід</option>
+              </select>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn-primary" id="category-submit">Додати категорію</button>
+              <button type="button" class="btn-secondary" id="category-cancel" hidden>Скасувати</button>
+            </div>
+            <p class="form-message" id="category-message" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,320 @@
+/* =====================================================================
+   Спільні стилі сторінок «Сімейний бюджет»: index, client, admin
+   ===================================================================== */
+
+:root {
+  --bg: #f4f2ee;
+  --surface: #ffffff;
+  --surface-alt: #faf9f6;
+  --text: #1f2421;
+  --muted: #6b716d;
+  --border: #e2ded6;
+  --accent: #1f5f4a;
+  --accent-hover: #174a39;
+  --accent-soft: #e3efe9;
+  --income: #1b7a4b;
+  --income-bg: #e6f4ec;
+  --expense: #b23a2f;
+  --expense-bg: #fbeae7;
+  --warning: #8a5a00;
+  --warning-bg: #fff4dc;
+  --info: #285c8f;
+  --info-bg: #e7f0f9;
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* ---------- Шапка і навігація ---------- */
+header.page-header {
+  background: var(--accent);
+  color: #fff;
+  padding: 16px 24px;
+}
+.header-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 20px;
+}
+header h1 { margin: 0; font-size: 22px; font-weight: 600; letter-spacing: .2px; }
+header p { margin: 2px 0 0; opacity: .85; font-size: 14px; }
+.top-nav { display: flex; flex-wrap: wrap; gap: 6px; }
+.top-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, .35);
+  font-size: 14px;
+}
+.top-nav a:hover { background: rgba(255, 255, 255, .12); }
+.top-nav a[aria-current="page"] { background: #fff; color: var(--accent); font-weight: 600; }
+
+main {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 20px 16px 48px;
+  display: grid;
+  gap: 20px;
+}
+
+section.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  min-width: 0;
+}
+section.panel > h2 { margin: 0 0 4px; font-size: 18px; font-weight: 600; }
+.panel-intro { margin: 0 0 14px; color: var(--muted); font-size: 14px; }
+h3 { margin: 0 0 10px; font-size: 15px; font-weight: 600; }
+
+.section-nav { display: flex; flex-wrap: wrap; gap: 8px; }
+.section-nav a {
+  color: var(--accent);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.section-nav a:hover { background: var(--accent-soft); }
+
+/* ---------- Повідомлення ---------- */
+.global-error {
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  background: var(--expense-bg);
+  color: var(--expense);
+  border: 1px solid #efc3bd;
+  font-weight: 500;
+}
+
+.form-message:empty { display: none; }
+.form-message {
+  margin: 10px 0 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  white-space: pre-line;
+}
+.form-message.error { background: var(--expense-bg); color: var(--expense); }
+.form-message.success { background: var(--income-bg); color: var(--income); }
+.form-message.info { background: var(--info-bg); color: var(--info); }
+
+/* Стани списків: завантаження, порожньо, помилка */
+.state {
+  padding: 14px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  background: var(--surface-alt);
+}
+.state-loading::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  vertical-align: -1px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+.state-error { color: var(--expense); border-color: #efc3bd; background: var(--expense-bg); }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- Форми ---------- */
+form { display: grid; gap: 10px; }
+label { display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
+label.checkbox { display: flex; align-items: center; gap: 8px; color: var(--text); font-size: 14px; }
+input, select, textarea {
+  font: inherit;
+  color: var(--text);
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  min-width: 0;
+  width: 100%;
+}
+label.checkbox input { width: auto; }
+textarea { resize: vertical; min-height: 60px; }
+input:focus, select:focus, textarea:focus { outline: 2px solid #9cc7b6; border-color: var(--accent); }
+input:disabled { background: var(--surface-alt); color: var(--muted); }
+.hint { font-size: 12px; color: var(--muted); }
+
+.form-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; align-items: end; }
+.form-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 14px;
+  border: 1px solid transparent;
+}
+button:disabled { opacity: .6; cursor: wait; }
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { background: var(--accent-hover); }
+.btn-secondary { background: #fff; color: var(--text); border-color: var(--border); }
+.btn-secondary:hover { background: var(--surface-alt); }
+.btn-small { padding: 4px 10px; font-size: 13px; }
+.btn-danger { background: #fff; color: var(--expense); border-color: #efc3bd; }
+.btn-danger:hover { background: var(--expense-bg); }
+.btn-approve { background: var(--income); color: #fff; }
+.btn-approve:hover { background: #156139; }
+[hidden] { display: none !important; }
+
+/* Перемикач типу операції */
+.type-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.type-switch input { position: absolute; opacity: 0; pointer-events: none; width: auto; }
+.type-switch label {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--text);
+  font-size: 14px;
+}
+.type-switch input:checked + label.expense { background: var(--expense-bg); border-color: var(--expense); color: var(--expense); font-weight: 600; }
+.type-switch input:checked + label.income { background: var(--income-bg); border-color: var(--income); color: var(--income); font-weight: 600; }
+.type-switch input:focus-visible + label { outline: 2px solid #9cc7b6; }
+
+/* ---------- Картки рахунків ---------- */
+.accounts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.accounts-grid > .state { grid-column: 1 / -1; }
+.account-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  background: var(--surface-alt);
+  display: grid;
+  gap: 6px;
+  align-content: start;
+}
+.account-card.selected { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.account-card .name { font-weight: 600; }
+.account-card .type { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+.account-card .balance { font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.account-card .balance.zero { color: var(--muted); }
+.card-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.account-card.editing, tr.editing td, li.editing { background: var(--warning-bg); }
+
+/* ---------- Сітки розділів ---------- */
+.two-columns { display: grid; grid-template-columns: 340px 1fr; gap: 20px; align-items: start; }
+.two-columns > *, .categories-layout > * { min-width: 0; }
+.side-form {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: end; margin-bottom: 10px; }
+.toolbar label { min-width: 180px; }
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px;
+  align-items: end;
+  margin-bottom: 10px;
+}
+.filters .search { grid-column: 1 / -1; }
+.filters .sort { grid-column: span 2; }
+.list-info { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+
+/* ---------- Таблиці ---------- */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: middle; }
+th { font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .4px; background: var(--surface-alt); }
+td.amount, th.amount { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+td.amount.income { color: var(--income); font-weight: 600; }
+td.amount.expense { color: var(--expense); font-weight: 600; }
+td.actions { white-space: nowrap; text-align: right; }
+td.muted, .muted { color: var(--muted); }
+td.nowrap { white-space: nowrap; }
+tr.highlight td { background: var(--accent-soft); }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.badge.income, .badge.status-approved { background: var(--income-bg); color: var(--income); }
+.badge.expense, .badge.status-rejected { background: var(--expense-bg); color: var(--expense); }
+.badge.status-new { background: var(--warning-bg); color: var(--warning); }
+.badge.status-cancelled { background: #eceae6; color: var(--muted); }
+.badge.open { background: var(--accent-soft); color: var(--accent); }
+.badge.closed { background: #eceae6; color: var(--muted); }
+.badge.link { background: var(--info-bg); color: var(--info); font-weight: 500; }
+
+/* Панель відхилення заявки */
+.reject-panel {
+  margin-top: 12px;
+  border: 1px solid #efc3bd;
+  background: #fff8f6;
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+/* ---------- Категорії ---------- */
+.categories-layout { display: grid; grid-template-columns: 1fr 1fr 300px; gap: 20px; align-items: start; }
+.category-list { list-style: none; margin: 0; padding: 0; }
+.category-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border);
+}
+.category-list .count { font-size: 12px; color: var(--muted); }
+
+/* ---------- Головна сторінка ---------- */
+.role-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.role-card {
+  display: grid;
+  gap: 8px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--text);
+}
+.role-card:hover { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.role-card strong { font-size: 18px; color: var(--accent); }
+.role-card span { color: var(--muted); font-size: 14px; }
+code { background: var(--surface-alt); border: 1px solid var(--border); padding: 1px 6px; border-radius: 6px; font-size: 13px; }
+
+@media (max-width: 900px) {
+  .two-columns, .categories-layout { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  header.page-header { padding: 14px 12px; }
+  main { padding: 12px 10px 32px; }
+  section.panel { padding: 14px; }
+  .filters .sort { grid-column: auto; }
+  .accounts-grid { grid-template-columns: 1fr; }
+  .toolbar label { min-width: 0; flex: 1 1 100%; }
+}
